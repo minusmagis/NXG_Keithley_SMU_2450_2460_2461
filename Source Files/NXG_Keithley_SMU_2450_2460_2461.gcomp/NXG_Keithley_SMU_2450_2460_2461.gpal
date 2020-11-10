@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="FFBDD352D8EFCD626DE262E6AC154C4C4EFE96E24A80FC98D7DF867A6F8E7A9434C5F836FA9BE27758F5ECC9373524A6F4E14E5A46CF547B7D3B70EC4DF4BF4C" Timestamp="1D6B78BDF8FBCE8" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<PaletteDefinition BindingKeywords="NativeTarget" PaletteBaseName="Diagram" xmlns="http://www.ni.com/PlatformFramework">
+		<PaletteContentCategory Display="Add-ons" Id="16884d1aea6e4a2caad59cd039c2745e" ShortName="Add-ons" UniqueId="NI.LabVIEW.VI:PaletteCategory.Addons" Weight="35">
+			<IconPanel Height="[float]40" Id="14b3e6126aaa4b8aa382fb38b7349dc8" Left="[float]0" Top="[float]0" Width="[float]40">
+				<IconTemplate Id="662c0b0c4504116a0c9e9de8e20f642" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+				<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 39,5 H 1 V 39 H 39 V 5 M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="329e9e83a394732ba2fc5968f7c456e" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+				<Path Data="[PathGeometry]M 39,39 H 1 V 5 H 39 V 39 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#fff3f4f5" Height="[float]40" Id="a2b9ff80dbb048448bda93b09f737a7c" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+				<Path Data="[PathGeometry]M 28,34 C 28.2929993,34 28.5690002,33.9329987 28.8199997,33.8199997 C 28.507,34.5149994 27.8120003,35 27,35 L 9,35 C 7.89499998,35 7,34.1049995 7,33 L 7,15 C 7,14.1890001 7.48500013,13.493 8.18000031,13.1800003 C 8.06700039,13.4309998 8,13.7069998 8,14 L 8,32 C 8,33.1049995 8.89500046,34 10,34 L 28,34 Z M 30,32 L 29,32 L 12,32 C 10.8950005,32 10,31.1049995 10,30 L 10,13 L 10,12 C 10,11.7069998 10.0670004,11.4309998 10.1800003,11.1800003 C 9.73600006,11.3800001 9.38000011,11.7360001 9.18000031,12.1800003 C 9.06700039,12.4309998 9,12.7069998 9,13 L 9,31 C 9,32.1049995 9.89500046,33 11,33 L 29,33 C 29.2929993,33 29.5690002,32.9329987 29.8199997,32.8199997 C 30.2639999,32.6199989 30.6200008,32.2639999 30.8199997,31.8199997 C 30.5690002,31.9330006 30.2929993,32 30,32 Z M 33,29 L 33,11 C 33,9.89500046 32.1049995,9 31,9 L 13,9 C 11.8950005,9 11,9.89500046 11,11 L 11,29 C 11,30.1049995 11.8950005,31 13,31 L 31,31 C 32.1049995,31 33,30.1049995 33,29 Z M 28,21 L 23,21 L 23,26 L 21,26 L 21,21 L 16,21 L 16,19 L 21,19 L 21,14 L 23,14 L 23,19 L 28,19 L 28,21 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="e13917f58992429d8b493234b4e0461c" Left="[float]0" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+			<PaletteContentCategory Display="Keithley 2450 2460 2461" Id="879420b070ed495380c9ee74e2eb26f7" ShortName="Labview_NXG_Keithley_SMU_2450_2460_2461" UniqueId="f646c0d0-03d3-4e91-8b93-155c422224d5">
+				<IconPanel Height="[float]40" Id="fbbc64ac45b24116848b3ce4ba2c38c7" Left="[float]0" Top="[float]0" Width="[float]40">
+					<IconTemplate Id="c0cc77eb94c4479a92eb5d1d1b2d5654" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+					<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="4888048dfd304b798b0dcff790231132" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+					<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ffc1c1c1" Height="[float]40" Id="a12796b6d6e648a898419d5067d8e0f6" Left="[float]0" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ffc1c1c1" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+					<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ffee1c25" Height="[float]11" Id="54ee8ce4e0e64ed099158ad75cb4de11" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ffee1c25" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+					<Text Foreground="[SMColor]#ffffffff" Height="[float]11" Id="681f9bbe2ac44ebf824a9b1424e853b2" Left="[float]7" Text="[string]KE2450" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]1" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]26">
+						<FontSetting FontFamily="Shruti" FontSize="6" Id="af6b666e41004e27ab9cc16c07d2a9f4" />
+					</Text>
+					<Path Data="[PathGeometry]M 9.38500023,13.625 L 12.3850002,16.625 L 6.99599981,22 L 4.99599981,22 L 3.99600005,21 L 3.99600005,19 L 9.38500023,13.625 Z M 15.9960003,0 L 13.9960003,2 L 17.5139999,5.51800013 L 13.6000004,9.42099953 L 16.6009998,12.4209995 L 20.5139999,8.51799965 L 23.9960003,12 L 27.9969997,7.99900007 L 20.9960003,1 L 15.9960003,0 Z M 22.0020008,19.2369995 L 9.42399979,6.65999985 C 10.118,4.88800001 9.86299992,2.9059999 8.43099976,1.47399998 C 6.99900007,0.0419999994 4.90799999,-0.323000014 3.13499999,0.370999992 L 6.62900019,3.86500001 C 6.62900019,3.86500001 6.62900019,5.26300001 5.93100023,5.96199989 C 5.23199987,6.65999985 3.83400011,6.65999985 3.83400011,6.65999985 L 0.340000004,3.16599989 C -0.352999985,4.93900013 0.0109999999,7.03000021 1.44299996,8.46199989 C 2.875,9.89400005 4.85699987,10.1490002 6.62900019,9.45499992 L 19.2070007,22.0330009 L 20.6049995,22.0330009 L 22.0020008,20.6359997 L 22.0020008,19.2369995 Z M 20.6049995,20.6350002 C 20.2189999,21.0209999 19.5930004,21.0209999 19.2070007,20.6350002 C 18.8209991,20.2490005 18.8209991,19.6229992 19.2070007,19.2369995 C 19.5930004,18.8509998 20.2189999,18.8509998 20.6049995,19.2369995 C 20.9909992,19.6240005 20.9909992,20.25 20.6049995,20.6350002" EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#b2000000" Height="[float]22.032" Id="e6d0e36e07e148718c15ae36709e5b8e" Left="[float]7" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]15" Width="[float]27.997" />
+				</IconPanel>
+				<PaletteContentCategory Display="Action Status" Id="8ec03490fa694fc8b1d800cf1d58c6e8" ShortName="Action Status" UniqueId="159f8746-2776-4e94-8ba1-4ae9c1f1accc">
+					<IconPanel Height="[float]40" Id="691d346c07ac43a1bafb1eec3856863c" Left="[float]0" Top="[float]0" Width="[float]40">
+						<IconTemplate Id="5b252b4f2b094c54a6acbb42102bd4ca" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+						<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="683e82ec07645b48087df348964b026" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ffc1c1c1" Height="[float]40" Id="7eb881faf6cd4fe085f073c2121b5da9" Left="[float]0" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ffc1c1c1" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						<Text Foreground="[SMColor]#ffe0e0e0" Height="[float]33" Id="276227bb12df46b0b8bdfe6f5aec8e67" Left="[float]1" SizeMode="[TextModelSizeMode]Fixed" Text="[string]A.ST" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]5" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]38">
+							<FontSetting FontFamily="Oswald" FontSize="15" Id="94bdf0a00fbc456f9fd5bd2226406e8f" />
+						</Text>
+					</IconPanel>
+					<PaletteContentLeaf Id="379b50e0eb6e4bfab99a709a3fb6f80a" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Action Status::Enable Output.gvi" />
+					<PaletteContentLeaf Id="f406e9f6744543d589139fc75db9d303" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Action Status::Enable Remote Sensing.gvi" />
+					<PaletteContentLeaf Id="1bf7b00fbdf54f1a82b2234306beb571" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Action Status::Get Digital IO Pins Mode.gvi" />
+					<PaletteContentLeaf Id="dd504e9f5afe42b9a1cd187f09d4aced" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Action Status::Get Digital IO Pins State.gvi" />
+					<PaletteContentLeaf Id="72ab9a0b9f7847fa9d62bc5fd5fbbbcd" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Action Status::In Compliance Query.gvi" />
+					<PaletteContentLeaf Id="c2a3a3fb9a714e2da42731e43c4f8f40" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Action Status::Read all Digital IO Pins.gvi" />
+					<PaletteContentLeaf Id="cea81f6e4ca4fa79cecccfeeeb498e7" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Action Status::Set Digital IO Mode.gvi" />
+					<PaletteContentLeaf Id="3c6ab072617f4a81954553e392d3bf90" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Action Status::Set or Reset Digital IO Pins.gvi" />
+					<PaletteContentLeaf Id="c6e7e6430054403781b177eb53d79768" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Action Status::Write to all Digital IO Pins.gvi" />
+				</PaletteContentCategory>
+				<PaletteContentCategory Display="Configure" Id="3e39d050612459bafbbf6626358d079" ShortName="Configure" UniqueId="47f7b97a-59a0-4c14-99d5-f88785b8c8b5">
+					<IconPanel Height="[float]40" Id="476a10a09461499591fe19f5537fde1c" Left="[float]0" Top="[float]0" Width="[float]40">
+						<IconTemplate Id="c6abadba9de402c8309bc7dd54b81cc" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+						<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="3926a1ef79dc4d10bec244b37a374424" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ffc1c1c1" Height="[float]40" Id="b27180434df640809b1b244599ffad79" Left="[float]0" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ffc1c1c1" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						<Text Foreground="[SMColor]#ffe0e0e0" Height="[float]33" Id="6cd364916f341448070127a9dca22ff" Left="[float]1" SizeMode="[TextModelSizeMode]Fixed" Text="[string]CONF" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]7" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]38">
+							<FontSetting FontFamily="Oswald" FontSize="13" Id="10f4662bd782445c99a3a7e46a35ffb9" />
+						</Text>
+					</IconPanel>
+					<PaletteContentLeaf Id="434b72ad75004756bb7d14a41ebc1874" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Append Buffer to File in the USB.gvi" />
+					<PaletteContentLeaf Id="a705dce4a2f44e2387cfb1492cbdbb11" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Clear Buffer Statistics.gvi" />
+					<PaletteContentLeaf Id="5db821d61bc744c1aacf142eaf83c713" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Clear Buffer.gvi" />
+					<PaletteContentLeaf Id="f2960e2654a541eaa2518828220aef6b" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Clear Trigger timer.gvi" />
+					<PaletteContentLeaf Id="b0e79c39aed4c7b96b82b2f52e873df" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Autozero Once.gvi" />
+					<PaletteContentLeaf Id="50430beae5c4472d8477cd6d4840cd3e" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Autozero.gvi" />
+					<PaletteContentLeaf Id="a5fa863357004050a2f30a6b77f6e4b9" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Brightness of Display.gvi" />
+					<PaletteContentLeaf Id="53d564a9aa0e4cf8941d30a36a3ad8cc" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Byte Order.gvi" />
+					<PaletteContentLeaf Id="b1bc84b73ed848edacc1534c7eb293d7" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Contact Check.gvi" />
+					<PaletteContentLeaf Id="d9b8bc2f593349dda9ec985fec7df3af" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Data Format.gvi" />
+					<PaletteContentLeaf Id="db22c571d85c48cf9b889bac50498317" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Digits for Display.gvi" />
+					<PaletteContentLeaf Id="cae9eeed169b4d4da5e1bb9a866cae5b" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Filter.gvi" />
+					<PaletteContentLeaf Id="422533a561db434db07b3c48cf98c22b" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Integration Filter.gvi" />
+					<PaletteContentLeaf Id="9092839fc9134c49a3a63fb8464a095a" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Limit Test Auto Clear.gvi" />
+					<PaletteContentLeaf Id="2f917eb2342d4df6b6c49ef7b2214122" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Limit Test Clear.gvi" />
+					<PaletteContentLeaf Id="21bd227e81524f0fb2282b58f365c09f" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Limit Test Lower Limit.gvi" />
+					<PaletteContentLeaf Id="b427a0c3c0c444beae2b7eb292377940" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Limit Test Upper Limit.gvi" />
+					<PaletteContentLeaf Id="c27a799799fc4c84b43ba8063b5a24ba" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Linear Mode Sweep.gvi" />
+					<PaletteContentLeaf Id="7af5665c85bd498fbe359345e42a00a5" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Linear Step Mode Sweep.gvi" />
+					<PaletteContentLeaf Id="d60086567eed452fa561ca23ba7882a8" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure List Mode Sweep.gvi" />
+					<PaletteContentLeaf Id="c7f659a0ccab470bb505611e76cbcfc4" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Log Mode Sweep.gvi" />
+					<PaletteContentLeaf Id="4c1afa3a64ea43508fa32c8884580b24" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Math.gvi" />
+					<PaletteContentLeaf Id="b96077c63c18438f9f941dfa8124f682" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Measure User Delay.gvi" />
+					<PaletteContentLeaf Id="1574578145cc4fbfa095fe6477ac8412" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Measurement Auto Range Lower Limit.gvi" />
+					<PaletteContentLeaf Id="b88c66802438437d8aa22ffb383f1c7b" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Measurement Auto Range Upper Limit.gvi" />
+					<PaletteContentLeaf Id="eb079b75bd7348c180ef274c9bfea3cc" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Measurement Function.gvi" />
+					<PaletteContentLeaf Id="25d6b3d7bf7240dc8389c16e57cee542" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Measurement Manual Range.gvi" />
+					<PaletteContentLeaf Id="1a3404e61830469285738dc954d648ea" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Measurement Range.gvi" />
+					<PaletteContentLeaf Id="f8d128dc97884c6892b02577f4d49e08" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Offset Compensation.gvi" />
+					<PaletteContentLeaf Id="3b0322fa31b64ac5aa5b9df00fd3c3b5" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Output List.gvi" />
+					<PaletteContentLeaf Id="b321cc8133604b4e9cb1c7e744857b0b" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Output Off Behavior.gvi" />
+					<PaletteContentLeaf Id="272de19d7caa41b4a986d7ed55ca3d0b" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Output Sweep.gvi" />
+					<PaletteContentLeaf Id="1e587517d120456e82d9ef17b69c4067" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Output.gvi" />
+					<PaletteContentLeaf Id="cd2678b2a7e041089f2a321f535c0934" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Over Voltage Protection.gvi" />
+					<PaletteContentLeaf Id="4f1de9f92f464b7f8fe5861136e239cb" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Pulse Limit.gvi" />
+					<PaletteContentLeaf Id="8b4dc8a21e214517a82abd845367c545" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Pulse List Sweep.gvi" />
+					<PaletteContentLeaf Id="933e380cc0004c3391879e8b72f07950" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Pulse Sweep.gvi" />
+					<PaletteContentLeaf Id="18362128e82e4da6a55c750ee20d5a83" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Pulse Train.gvi" />
+					<PaletteContentLeaf Id="4deb607010a04c28938e555e6b88b807" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Reading Format of Display.gvi" />
+					<PaletteContentLeaf Id="54b28c7b8db2419090fac7ffb9f729ff" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Relative Offset.gvi" />
+					<PaletteContentLeaf Id="476384cdd840468c92a546f708936478" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Settling Delay.gvi" />
+					<PaletteContentLeaf Id="694ec6b009fb46c3900d80799568d4c0" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Source Function.gvi" />
+					<PaletteContentLeaf Id="1c57493302d949cf9b6bfdc9d04bd7b7" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Source Level.gvi" />
+					<PaletteContentLeaf Id="47d56e9fee8144d89741a7b967970464" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Source Limit Level.gvi" />
+					<PaletteContentLeaf Id="37ad11310e2042eeb3076e19324b488c" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Source Range.gvi" />
+					<PaletteContentLeaf Id="8f36158834d7429094339e5e350af33d" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Source User Delay.gvi" />
+					<PaletteContentLeaf Id="551e5cdb8fe44334bf06330f802b7256" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Specific Limit Test.gvi" />
+					<PaletteContentLeaf Id="24a38c21642344a98036f2b3f035866c" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure System Access Permission.gvi" />
+					<PaletteContentLeaf Id="7a385ea1ca954f70aeccbd10888a62dc" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Trigger Model Always Block.gvi" />
+					<PaletteContentLeaf Id="dfd570f2e6f64357bb3d719d62aee9a3" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Trigger Model Blender Mode.gvi" />
+					<PaletteContentLeaf Id="7a4691c4c2ab43c2a8622d59a5020e43" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Trigger Model Branch Counter Block.gvi" />
+					<PaletteContentLeaf Id="e1df86d9a4d1453081da118c756ff38c" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Trigger Model Buffer Clear Block.gvi" />
+					<PaletteContentLeaf Id="61b2b26920d049ccba841d7c8cbd14d7" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Trigger Model Clear Blender.gvi" />
+					<PaletteContentLeaf Id="486a1794761b472490a48bf040b902ab" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Trigger Model Clear Digital Input Line.gvi" />
+					<PaletteContentLeaf Id="1b6913e540d34eb28826e85384fb3d39" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Trigger Model Clear LAN.gvi" />
+					<PaletteContentLeaf Id="77dab77849fc466bb5ca550451e10176" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Trigger Model Configuration List Next Index Block.gvi" />
+					<PaletteContentLeaf Id="4aaa270f09bb4de0b56932104738fb0e" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Trigger Model Configuration List Previous index Block.gvi" />
+					<PaletteContentLeaf Id="30e5a36fe65f4be7bd88f965f3aef15f" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Trigger Model Constant Delay Block.gvi" />
+					<PaletteContentLeaf Id="45adf2357d614478a0fd15ef9a590e1d" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Trigger Model Delta Block.gvi" />
+					<PaletteContentLeaf Id="6b58f5898b0643b6a397213561c0a27b" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Trigger Model Digital Input Mode.gvi" />
+					<PaletteContentLeaf Id="bf576f4b821f43c5bcc2553bd52b7371" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Trigger Model Digital Output Mode.gvi" />
+					<PaletteContentLeaf Id="89b4e230f3314cf787356bb560e015b2" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Trigger Model Digital Output Pulse Width.gvi" />
+					<PaletteContentLeaf Id="f2c47cdd7b0a42669ffd23f749d8af01" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Trigger Model LAN IP Address.gvi" />
+					<PaletteContentLeaf Id="fa8d63056a5b4df39796f00a2dd039c0" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Trigger Model LAN Output Logic Mode.gvi" />
+					<PaletteContentLeaf Id="ff0ee9b766294a718e41ea73d3932b9f" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Trigger Model LAN Output Protocol.gvi" />
+					<PaletteContentLeaf Id="94999670373748ceac345be81aad5a94" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Trigger Model LAN Trigger Mode.gvi" />
+					<PaletteContentLeaf Id="32e5cf2076d44745a70534f5ffc3e293" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Trigger Model Measure Block.gvi" />
+					<PaletteContentLeaf Id="145df9b23cd34c71aebd8c41afebb543" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Trigger Model Once Block.gvi" />
+					<PaletteContentLeaf Id="9c08d342649d478b99945a7c86238ebd" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Trigger Model Once Excluded Block.gvi" />
+					<PaletteContentLeaf Id="929c136dc264436987c6f1fb7ee876f4" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Trigger Model Recall Configuration List Block.gvi" />
+					<PaletteContentLeaf Id="e2c8d2584e71490fbef75cbd72b49a52" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Trigger Model Source Output Block.gvi" />
+					<PaletteContentLeaf Id="4296d5db5cd042a2a6a26225af635f9f" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Trigger Model.gvi" />
+					<PaletteContentLeaf Id="314e4db441d643a6ba7dfa984946d045" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Unit of Current.gvi" />
+					<PaletteContentLeaf Id="454a64561ff24a51a0918205c15e0a95" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Configure Unit of Voltage.gvi" />
+					<PaletteContentLeaf Id="f087b1cd8b0d4d5bb576540d2f053839" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Create Configuration List.gvi" />
+					<PaletteContentLeaf Id="fd2475d7c9a34da9ba8b34a1ae036bcf" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Create User Buffer.gvi" />
+					<PaletteContentLeaf Id="74e9fc77ce6a4a32a0b2db2799721369" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Delete Configuration List.gvi" />
+					<PaletteContentLeaf Id="ce8441cfcead4fb5bc433ad53a4d301a" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Delete User Buffer.gvi" />
+					<PaletteContentLeaf Id="7b4e9626b3404ec4865c50639468e912" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Digitizer Aperture.gvi" />
+					<PaletteContentLeaf Id="bb80542f79204c308f3224abd1f5df28" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Digitizer Current Units.gvi" />
+					<PaletteContentLeaf Id="796ec690b91c4851ad56aaa192ba173f" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Digitizer Sample Rate.gvi" />
+					<PaletteContentLeaf Id="8b3cb468dd644bcbb26c34db4724a9d3" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Digitizer Voltage Units.gvi" />
+					<PaletteContentLeaf Id="1aba20641f043478b720ea548c460c8" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Enable High Capacitance.gvi" />
+					<PaletteContentLeaf Id="f2e31b665020474b9d0c884c7bf09891" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Enable LAN Connect State.gvi" />
+					<PaletteContentLeaf Id="627bc28fc4364b95bba90f222b5d4ca0" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Enable Limit Test.gvi" />
+					<PaletteContentLeaf Id="d2bee831d43d4e2692ff90cd32501eb9" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Enable Logging.gvi" />
+					<PaletteContentLeaf Id="f26fd96366f4447b852de210dbe15787" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Enable Math Operation.gvi" />
+					<PaletteContentLeaf Id="3dbf06ea54dd4c29984d2b36eec53f8e" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Enable Measurement Auto Range.gvi" />
+					<PaletteContentLeaf Id="e5549ec8f9e642e79450859ebe30fdb7" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Enable Source Auto Range.gvi" />
+					<PaletteContentLeaf Id="e108669fc1524ff792db08d43ec5f26e" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Enable Source Read Back.gvi" />
+					<PaletteContentLeaf Id="bdc098906c4f445ea191d8b8b5e0ee8e" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Buffer Filling Mode.gvi" />
+					<PaletteContentLeaf Id="4ad9621b199c45a4a5ad264101d5e0dc" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Buffer Size.gvi" />
+					<PaletteContentLeaf Id="2e2c09cf5062489ba1ebe0be2e2d8a32" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Byte Order.gvi" />
+					<PaletteContentLeaf Id="28489bdc6732464386537d52161b518c" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Conact Check State.gvi" />
+					<PaletteContentLeaf Id="e5654a0455045779a80089237e2e8a9" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Data Format.gvi" />
+					<PaletteContentLeaf Id="d4fb7924685249ffb3551b6c9206efec" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get GPIB Address.gvi" />
+					<PaletteContentLeaf Id="ab67e02dc680431fad75d58cde2f0f1e" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get High Capacitance State.gvi" />
+					<PaletteContentLeaf Id="b8242d6079b441a0bd6ab0d35b5f3f1a" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Interlock Status.gvi" />
+					<PaletteContentLeaf Id="2983b16e6a9f448694d165193cca65ff" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get LAN Connect State.gvi" />
+					<PaletteContentLeaf Id="8563d6aafa8d454786e2285f805a184e" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Limit Test Enabled State.gvi" />
+					<PaletteContentLeaf Id="97d0247604bb42b6ae51bb5eba89922b" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Limit Test Lower Limit.gvi" />
+					<PaletteContentLeaf Id="40c5bcaa80f447cf9d46173b145e7dfe" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Limit Test Upper Limit.gvi" />
+					<PaletteContentLeaf Id="a4c174fa7255489ab43f472b7f6ca04e" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Line Frequency.gvi" />
+					<PaletteContentLeaf Id="308f46ad682140dd8bfbadeaf486ad5a" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Log State.gvi" />
+					<PaletteContentLeaf Id="70c84f6b7b5249578c7e51ec29043773" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Measure Configuration List Catalog.gvi" />
+					<PaletteContentLeaf Id="b0e9c393ded44b74887ca237ce294297" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Measure Configuration List Settings.gvi" />
+					<PaletteContentLeaf Id="ff9ef9e1cc6c43e292bcf266d325b79e" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Measure Configuration List Size.gvi" />
+					<PaletteContentLeaf Id="a1b776a90fe74c12bf3c4b7ea7586ff9" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Measure User Delay.gvi" />
+					<PaletteContentLeaf Id="e297008775d742828f1ee6e8609a2a70" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Measurement Auto Range Lower Limit.gvi" />
+					<PaletteContentLeaf Id="d08d8771e4e44436811b59de2e07f41d" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Measurement Auto Range.gvi" />
+					<PaletteContentLeaf Id="7a94405a5b694115a89efd613746ec6b" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Measurement Count.gvi" />
+					<PaletteContentLeaf Id="2e1a20d1754cd4884d1db235a3b371" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Measurement Function.gvi" />
+					<PaletteContentLeaf Id="ebdc42a4e7dd4114b5c526ba67dba6f5" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Measurement Manual Range.gvi" />
+					<PaletteContentLeaf Id="6e6632c9cd6b4c408f96ccb6ce63b225" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Over Voltage Protection State.gvi" />
+					<PaletteContentLeaf Id="5b531d2453924cfb8f9abb5ca5e91d76" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Source Auto Delay State.gvi" />
+					<PaletteContentLeaf Id="f123ee49094940908f77a16eb2eb786f" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Source Auto Range.gvi" />
+					<PaletteContentLeaf Id="260e2529216745a8bb312db30889d5b0" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Source Configuration List Catalog.gvi" />
+					<PaletteContentLeaf Id="feafc50e7c7b4bcaa54b5c318ba3d718" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Source Configuration List Settings.gvi" />
+					<PaletteContentLeaf Id="534853e850e74911b5f379252ad3003b" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Source Configuration List Size.gvi" />
+					<PaletteContentLeaf Id="dcc6981fbd50476aa81bd0b7d843bfb7" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Source Delay.gvi" />
+					<PaletteContentLeaf Id="a3dd723bf79e44a883ebabda9040d9b9" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Source Function.gvi" />
+					<PaletteContentLeaf Id="e507f0e1d68a4062b93454d1a83bf20d" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Source Level.gvi" />
+					<PaletteContentLeaf Id="f07b6bba95a64e4ea3750a74d9da2bfb" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Source Limit.gvi" />
+					<PaletteContentLeaf Id="8400bf2c47624062a0e738b0607490b4" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Source List Points.gvi" />
+					<PaletteContentLeaf Id="788956497a5f474bbaa9a9c0bef7f446" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Source Range.gvi" />
+					<PaletteContentLeaf Id="163a8484011049808708bf309bd80fc9" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Source Read Back State.gvi" />
+					<PaletteContentLeaf Id="4110f07f4a3b4c1db29ba8ca80852510" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Source User Delay.gvi" />
+					<PaletteContentLeaf Id="50d3484142434c92bb948493914d8ef0" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get System Access Permission.gvi" />
+					<PaletteContentLeaf Id="51dbb73662f1463093f3ee730bff7e93" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Time.gvi" />
+					<PaletteContentLeaf Id="e8698703f3e245bdb1e4ad0e22416fed" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Trigger Model Blender Mode.gvi" />
+					<PaletteContentLeaf Id="3d20a908d5a84d34a5fe555bf14864a7" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Trigger Model Blender Overrun Status.gvi" />
+					<PaletteContentLeaf Id="8f73d62922cf4fe284909d7fd4ddd8e9" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Trigger Model Digital Input Mode.gvi" />
+					<PaletteContentLeaf Id="44e26441d6954c4084116b783ba2cedd" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Trigger Model Digital Output Mode.gvi" />
+					<PaletteContentLeaf Id="4607b47a26a942e988ce335207e90189" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Trigger Model Digital Output Pulse Width.gvi" />
+					<PaletteContentLeaf Id="5bded70aebcf42059042af32c0fd715c" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Trigger Model Digital Overrun Status.gvi" />
+					<PaletteContentLeaf Id="5bd59fcc1b8146ecbee1e1831c871082" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Trigger Model LAN Input Logic Mode.gvi" />
+					<PaletteContentLeaf Id="582844c9f9e94b8c8dd092dcfabb7791" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Trigger Model LAN IP Address.gvi" />
+					<PaletteContentLeaf Id="8f83c7e84cc24d3d8ad663b0fb96e4c8" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Trigger Model LAN Mode.gvi" />
+					<PaletteContentLeaf Id="f4ddca7bbfcf4b138c0f49121406a9c6" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Trigger Model LAN Output Logic Mode.gvi" />
+					<PaletteContentLeaf Id="2bd652f757474e3eaccadfe59ce1c74a" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Trigger Model LAN Output Protocol.gvi" />
+					<PaletteContentLeaf Id="9d37e570dff94c70a05c1003939f625a" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Trigger Model LAN Overrun Status.gvi" />
+					<PaletteContentLeaf Id="f8925a3c4cf74aa0b7580b74f5567a61" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Trigger Model State.gvi" />
+					<PaletteContentLeaf Id="733a2e6a81794e799dda11425018bb14" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Trigger Timer Count.gvi" />
+					<PaletteContentLeaf Id="4cd17b4bf34e4ab38bef74e2071e0352" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Trigger Timer Delay.gvi" />
+					<PaletteContentLeaf Id="c7812b23538344088aab671e3dbd607f" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Trigger Timer Overrun Status.gvi" />
+					<PaletteContentLeaf Id="2c7cf33760cb41bcaa57ed8acc7d3cc6" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Trigger Timer State.gvi" />
+					<PaletteContentLeaf Id="cb9e79b9913540ea982b6e89a6687d85" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Get Version.gvi" />
+					<PaletteContentLeaf Id="69a0772d80e8460d80eb596268ffa901" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Getting Powered ON Setup.gvi" />
+					<PaletteContentLeaf Id="56d26bb09e7d470c9624399b4198439a" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Load Trigger Model Configuration Lists.gvi" />
+					<PaletteContentLeaf Id="210907059fe845e7ab456b0db649146c" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Save Buffer to File in the USB.gvi" />
+					<PaletteContentLeaf Id="2ad2e25630b74674be3ff38097647680" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Save Message from Event Log.gvi" />
+					<PaletteContentLeaf Id="7ecfb2d6695f412d9c1dc028cd736f08" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Set Absolute Time.gvi" />
+					<PaletteContentLeaf Id="735101559a7d4f64b9c311c7c3f8d784" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Set Buffer Filling Mode.gvi" />
+					<PaletteContentLeaf Id="6a8dcfb67a7043c8b66c81b990fe700c" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Set Buffer Size.gvi" />
+					<PaletteContentLeaf Id="41639c27b4be496dbe4ab74faf34de76" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Set GPIB Address.gvi" />
+					<PaletteContentLeaf Id="30c8fd9e7b545129957f8f9f5471d0b" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Set Measurement Count.gvi" />
+					<PaletteContentLeaf Id="9896ae4eb2144c948395b29c0dad91ce" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Set Pulse Amplitude.gvi" />
+					<PaletteContentLeaf Id="79ca3245e943a1bbe3b6835db70ff4" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Set Trigger Timer Count.gvi" />
+					<PaletteContentLeaf Id="1acfa2248a7f444cbba2b99bd3d452d6" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Set Trigger Timer Delay.gvi" />
+					<PaletteContentLeaf Id="b88a548f5c27496aa306b203f5d0031a" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Set Trigger Timer State.gvi" />
+					<PaletteContentLeaf Id="3960a2531dd54841a1d7348cfa949697" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Setting Powered ON Setup.gvi" />
+					<PaletteContentLeaf Id="85ba0bbc98324190b15a7ee6533241f7" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Store Configuration List.gvi" />
+				</PaletteContentCategory>
+				<PaletteContentCategory Display="Data" Id="3aa5989ae89b45a886c3a7b9ee9557ef" ShortName="Data" UniqueId="7343422e-598b-4a72-b8bd-70958fa5ff6a">
+					<IconPanel Height="[float]40" Id="c15b3ab27cdc46e79640a4f8a1e61912" Left="[float]0" Top="[float]0" Width="[float]40">
+						<IconTemplate Id="533e2c4bb1604d17944670943c17e297" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+						<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="dacdb8002fd54d03a5f9dfc8c33f356e" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ffc1c1c1" Height="[float]40" Id="c44175907c4e4264b30c47f1fb5ea1b0" Left="[float]0" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ffc1c1c1" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						<Text Foreground="[SMColor]#ffe0e0e0" Height="[float]33" Id="f5db489ef8624cd58d4ac84a4bc47c54" Left="[float]1" SizeMode="[TextModelSizeMode]Fixed" Text="[string]DATA" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]5" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]38">
+							<FontSetting FontFamily="Oswald" FontSize="14" Id="c0d42e81b19f4a68ae8486c1c779eeff" />
+						</Text>
+					</IconPanel>
+					<PaletteContentLeaf Id="22ffec2a1b6d47cd9c2b857717c90195" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Data::Fetch Read Buffer Statistics.gvi" />
+					<PaletteContentLeaf Id="7327b46aaa84916b26ba66be433d500" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Data::Get Number of Readings in the Buffer.gvi" />
+					<PaletteContentCategory Display="Low Level" Id="3cc475a658084db9b67edd2b76e78e2e" ShortName="Low Level" UniqueId="449e4266-9832-48b1-ace0-17a7030bf9f7">
+						<IconPanel Height="[float]40" Id="762a5d444abd4896a329123d1f98abe5" Left="[float]0" Top="[float]0" Width="[float]40">
+							<IconTemplate Id="d62e83cf46394698b813edba9ecf46b2" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+							<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="6808a0f98ebd43b48474ef9cdfbd208c" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+						<PaletteContentLeaf Id="498baffd120649fbb88ffcf9777f4fc5" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Data::Low Level::Abort.gvi" />
+						<PaletteContentLeaf Id="c00a5ff7aa764070bc2190c2560bbce6" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Data::Low Level::Fetch (Measurements).gvi" />
+						<PaletteContentLeaf Id="4c4ed8be3a9d476493a48ea10534656a" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Data::Low Level::Initiate.gvi" />
+						<PaletteContentLeaf Id="91b86609426440d2ab0aede9c4738198" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Data::Low Level::Measure Lowlevel.gvi" />
+						<PaletteContentLeaf Id="d39891ca2cf14dffa3948bf89e1be0ae" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Data::Low Level::Send Software Trigger.gvi" />
+						<PaletteContentLeaf Id="c9abf291c7cc4d81be7b4ab454741d17" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Data::Low Level::Wait for Operation Complete.gvi" />
+					</PaletteContentCategory>
+					<PaletteContentLeaf Id="3a2ac0f9865c4a85b27c1329ec8fa913" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Data::Make Reading and Store in Buffer.gvi" />
+					<PaletteContentLeaf Id="d5b9bdc7a453429081289ddd87e5964a" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Data::Query Limit Test Data.gvi" />
+					<PaletteContentLeaf Id="34cb52afa0f14f7b90e75033527d58e3" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Data::Read (Digitize).gvi" />
+					<PaletteContentLeaf Id="2689267fd73b443f83f6d17fd693a98f" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Data::Read (Multiple Points).gvi" />
+					<PaletteContentLeaf Id="21a73e8a92fa47528688408659ae6839" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Data::Read (Single Point).gvi" />
+				</PaletteContentCategory>
+				<PaletteContentCategory Display="Examples" Id="ee121243f54f4f979508c25141cea72c" ShortName="Examples" UniqueId="bee238b7-96c5-4887-a3a0-91b1ccc2815c">
+					<IconPanel Height="[float]40" Id="51233568ef8347dda6bbe1ae998f18ff" Left="[float]0" Top="[float]0" Width="[float]40">
+						<IconTemplate Id="af84586d383a40f188d7bb69193cff43" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+						<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="21491df9300b49d6a8defcce71d63b16" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ffc1c1c1" Height="[float]40" Id="a31f40ca979242c0900b8fd02ed8f0e4" Left="[float]0" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ffc1c1c1" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						<Text Foreground="[SMColor]#ffe0e0e0" Height="[float]33" Id="f30f14d337804e13a840911b7695873d" Left="[float]1" SizeMode="[TextModelSizeMode]Fixed" Text="[string]EXPL" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]5" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]38">
+							<FontSetting FontFamily="Oswald" FontSize="15" Id="6c4fdb1eee4548b4b71b0c97bb32e8e5" />
+						</Text>
+					</IconPanel>
+					<PaletteContentLeaf Id="3ec800421a434db6a6088a8783a8ae5b" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Examples::Keithley 2450 Output List and Acquire.gvi" />
+					<PaletteContentLeaf Id="80b81d62336a4f0c9c22a5cf5ba5202f" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Examples::Keithley 2450 Read Multiple.gvi" />
+					<PaletteContentLeaf Id="2868c092e7cd4a3ab09bb833a0e37054" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Examples::Keithley 2450 Read Single.gvi" />
+					<PaletteContentLeaf Id="60ff3b8778464d458a62c6d9e9cce050" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Examples::Keithley 2450 Sweep and Acquire Measurements.gvi" />
+					<PaletteContentLeaf Id="976af0710dcf4d87b5b59ce5f3470b00" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Examples::Keithley 2461 Digitized Sweep.gvi" />
+					<PaletteContentLeaf Id="f353bbebcc724f29a9926485e935e896" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Examples::Keithley 2461 Pulse Output List and Aquire.gvi" />
+					<PaletteContentLeaf Id="be0b93d38bb64024a595e728b25f38db" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Examples::VI Tree.gvi" />
+				</PaletteContentCategory>
+				<PaletteContentCategory Display="Miscelaneous" Id="88315f727523497abd211fec404855e8" ShortName="Miscelaneous" UniqueId="1705c853-8622-4f05-90db-5c3392ae0e6c">
+					<IconPanel Height="[float]40" Id="fc1e9fe14e394d0b824cb4ace56801ef" Left="[float]0" Top="[float]0" Width="[float]40">
+						<IconTemplate Id="73a154b6849248f3b9160b47a9ccc509" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+						<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="2ca3d4742a0425e8d07e7cfdaa049b7" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ffc1c1c1" Height="[float]40" Id="ecf1c9958a5c47e6a4aa84e96a2988e3" Left="[float]0" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ffc1c1c1" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						<Text Foreground="[SMColor]#ffe0e0e0" Height="[float]33" Id="bb5d0cf80ca6457c8c2d98eed00268bc" Left="[float]1" SizeMode="[TextModelSizeMode]Fixed" Text="[string]MISC" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]7" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]38">
+							<FontSetting FontFamily="Oswald" FontSize="13" Id="fd5e853446c43b2a0cf8248ac8390ea" />
+						</Text>
+					</IconPanel>
+					<PaletteContentLeaf Id="4776e9a41c1a424bb9cb30854fd7c9d2" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Miscelaneous::Close.gvi" />
+					<PaletteContentLeaf Id="75ea85f260324543aef592a5f59da631" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Miscelaneous::Default Instrument Setup.gvi" />
+					<PaletteContentLeaf Id="c1bcbe54468b4146b774feade10a5dd3" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Miscelaneous::Initialize.gvi" />
+				</PaletteContentCategory>
+				<PaletteContentCategory Display="Utility" Id="95d849ead10416e85c8a8e5a6681362" ShortName="Utility" UniqueId="c59308f9-adce-4081-bc19-65c20348bf6f">
+					<IconPanel Height="[float]40" Id="ae5dbe5910f64ee2b606fa06dcb816ac" Left="[float]0" Top="[float]0" Width="[float]40">
+						<IconTemplate Id="944dc8d3f211485b835fae1c497525d3" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+						<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="6b32d9e2284ca2ab81decb58436c91" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ffc1c1c1" Height="[float]40" Id="15bf9ec6dd0b41df8d69d15be46464e7" Left="[float]0" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ffc1c1c1" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						<Text Foreground="[SMColor]#ffe0e0e0" Height="[float]33" Id="ea45ebf1763d46ffa36f067e2a2ebba4" Left="[float]1" SizeMode="[TextModelSizeMode]Fixed" Text="[string]ULTY" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]7" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]38">
+							<FontSetting FontFamily="Oswald" FontSize="13" Id="3040974d7f149daa1f00e874a434b33" />
+						</Text>
+					</IconPanel>
+					<PaletteContentLeaf Id="2987f5bb289d458b8ce2d3695fd287d2" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Calibrate Adjust Sense Data Query.gvi" />
+					<PaletteContentLeaf Id="d2d33222ca94490c8350a004b385380b" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Calibrate Adjust Sense.gvi" />
+					<PaletteContentLeaf Id="6524767a795a4579a5fc4a7facb9e21f" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Calibrate Adjust Source Data Query.gvi" />
+					<PaletteContentLeaf Id="e5b6fd014d8c4152a43c55c4e831113f" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Calibrate Adjust Source.gvi" />
+					<PaletteContentLeaf Id="d3b3ae04daee4ebebca50b1d12899bb3" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Calibration Adjust Count Query.gvi" />
+					<PaletteContentLeaf Id="ab80dcb1c2c4dff824ec48a8607d6ee" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Calibration Adjust Date Query.gvi" />
+					<PaletteContentLeaf Id="cf7a6d8d23184ad9aa00c0f1a062d69e" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Calibration Adjust Date.gvi" />
+					<PaletteContentLeaf Id="ffb505dec8b74fd4969f6959c9dba851" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Calibration Lock.gvi" />
+					<PaletteContentLeaf Id="ca90630a7fce48d3b560ee12e841daba" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Calibration Password.gvi" />
+					<PaletteContentLeaf Id="3d5c94f32da04e76b274c20ada5ce0cd" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Calibration Save.gvi" />
+					<PaletteContentLeaf Id="fba2c126e4384ad6b36ab09554f09c65" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Calibration Unlock.gvi" />
+					<PaletteContentLeaf Id="3f0591e0b4d24153bf133a82fe769906" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Calibration Verify Date Query.gvi" />
+					<PaletteContentLeaf Id="390cc630c4704bd5a9b76d99065137f2" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Calibration Verify Date.gvi" />
+					<PaletteContentLeaf Id="1a0f0313a28e4550859e2e4457fb814c" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Clear Display.gvi" />
+					<PaletteContentLeaf Id="31024aeac6a54a0eb34b126fe8b2357f" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Clear System Event Log.gvi" />
+					<PaletteContentLeaf Id="c7c01af263f643a3963666cad18bdd58" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Create Math Operation.gvi" />
+					<PaletteContentLeaf Id="da76ab42ae494fe3822a96439d408d1f" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Display Message.gvi" />
+					<PaletteContentLeaf Id="5a6b730a86c040a396a9a1c473877d48" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Emit Beep.gvi" />
+					<PaletteContentLeaf Id="2e918bd4ac4433b84e5b6a1cd2dea93" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Enable Operation Event Register.gvi" />
+					<PaletteContentLeaf Id="1131612fe97e416bb552538c1d1e7010" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Enable Questionable Event Register.gvi" />
+					<PaletteContentLeaf Id="e3cff74ce59a47eda93780a9ee92328d" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Error Query.gvi" />
+					<PaletteContentLeaf Id="a22e5cfdf2d147f699e8cfcb571c02d0" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Get Active Terminals.gvi" />
+					<PaletteContentLeaf Id="120eb0efbf8f4ee9b6d512dae799c89d" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Get Event Id Mapped to Bit Number in Operation Event Register.gvi" />
+					<PaletteContentLeaf Id="8e377b9005654147b37b56f5814e2cb0" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Get Event Id Mapped to Bit Number in Questionable Event Register.gvi" />
+					<PaletteContentLeaf Id="4d368d548134423ea5a63a634c1527ad" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Get Min-Max Ranges.gvi" />
+					<PaletteContentLeaf Id="42165bb9898b4ffa8640c8b1d049ed62" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Get Trigger Block List.gvi" />
+					<PaletteContentLeaf Id="843fbd953986469fa72ea1a43be2abab" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Map Event Id to Bit number in Operation Event Register.gvi" />
+					<PaletteContentLeaf Id="c7fa0e78ba094341840d0101cd267987" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Map Event Id to Bit number in Questionable Event Register.gvi" />
+					<PaletteContentLeaf Id="43aa3607f7014f76a7794c1550b2f8a8" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Preset Status.gvi" />
+					<PaletteContentLeaf Id="827028a6d35b42e88a25b7eadd68b7ac" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Read Operation Condition Register.gvi" />
+					<PaletteContentLeaf Id="b52b54dc605c4c9890e25d5df3e35767" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Read Operation Event Register Status.gvi" />
+					<PaletteContentLeaf Id="648bc249a012454ead2cd9bd5e420ed0" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Read Operation Event Register.gvi" />
+					<PaletteContentLeaf Id="15380e17a3d243b4a72ce80d5cbb8eb2" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Read Questionable Condition Register.gvi" />
+					<PaletteContentLeaf Id="f4497b3970aa4a22b7d874b5a7c49ae1" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Read Questionable Event Register Status.gvi" />
+					<PaletteContentLeaf Id="b7e27c0b11647beb950c03981848a2a" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Read Questionable Event Register.gvi" />
+					<PaletteContentLeaf Id="8d8c2a77b1d54ecf8a0a1f1221660f93" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Recall Configuration List.gvi" />
+					<PaletteContentLeaf Id="4a366425260c49f9af235aa6d0eb3ac4" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Reset.gvi" />
+					<PaletteContentLeaf Id="adb907500a344d279d9ec7e6b243c184" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Revision Query.gvi" />
+					<PaletteContentLeaf Id="9aa7a64dc5d14750a596c9063f22171e" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Select Active Terminals.gvi" />
+					<PaletteContentLeaf Id="40e586ae3f4047a59eb15a69d938ce30" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Selected Range Query.gvi" />
+					<PaletteContentLeaf Id="a212cc9c73f14a23a50dc39a8ee6339f" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Self-Test.gvi" />
+					<PaletteContentLeaf Id="b11c2613253f47ca8a6afa393ca390c0" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Set Display Screen.gvi" />
+				</PaletteContentCategory>
+			</PaletteContentCategory>
+		</PaletteContentCategory>
+	</PaletteDefinition>
+</SourceFile>

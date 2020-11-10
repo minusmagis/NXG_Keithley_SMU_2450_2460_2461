@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="32071CC102A283EF228588F79335B5902B18BC63A2468ACAB0EC07B08581C30595CADFB16692ECD361606C5FA5B41E5A28AF8B36B1E02E11C6BB1BD7D3C71DBD" Timestamp="1D6B78790C468DA" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="160068183d0a4e9798705eae3047f6f8" RootNamespaceId="a19794d702fe46498d914db5edd5bcdc" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="751a214ecc94cd184ef7c22be2045e1" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3f851e1151c24037b25be189d84f2bf7" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="c3fea5c9f49147cf93b478336f0d156f" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="e76d1098c84d4fc2aff7f2c8b3a52826" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration AssociatedPalettes="1d8c728452754f8a82c5e7c4c592f420,5fbf13bb5ff04deb98c2e31e73217bfb" Id="915cd5bff01942ab90ce616e142f265e" Name="Configuration1">
+			<CompilerSymbolTable Id="108f758e9d884baa8e4b80133db9a8c8" xmlns="http://www.ni.com/PlatformFramework" />
+			<GLibraryProperties Id="8898bb9b2d1947b98d670e0d80ff75ad" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="344239e4ecf34a35b7e267ee9bdaf40c" Exported="True" Id="c0261304a97d4176b2c9fdd0504fc614" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="56144053d02842ec9b7f595d151283dd" Exported="True" Id="2f9a1fa7bb39467f93ca2578a1cc6fbf" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="592bbe654fd14ccca355b7d651f5b556" Exported="True" Id="33e59d007d1e469db3adf809948425a1" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="e0014a8f3a0741eab66dc9591577c8af" Exported="True" Id="793b8eb4a94647c29892b6d0ac91b008" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="2cc1c612d1554f979125ac7e500f93be" Exported="True" Id="e26728be5aeb4db98cd4e41f17f57fa5" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="245c2430be1b4a298ddf6902f4e7b3be" Exported="True" Id="36c9d700765640be8702aa2d55683a20" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="5d1e8214c1eb47e480d7c492857821ea" Exported="True" Id="44b28bd0630d476f97680a23636f62a6" />
+			<ComponentItemProperties AssociatedEnvoyId="4b85a56561bb45d38d104af80f488d50" Exported="True" Id="abe5214cef4a4864b03b598cfbd7c2c4" />
+			<ComponentItemProperties AssociatedEnvoyId="7c57ce992185488898d41d34999e3559" Exported="True" Id="fd92b169c2ac4087a717ab560b7e9d8d" />
+			<ComponentItemProperties AssociatedEnvoyId="9ef1bbf5a28b4f108b6a36743c1c3ca5" Exported="True" Id="cfa8e59c1c0e45b3aa919affb2ee6acf" />
+			<ComponentItemProperties AssociatedEnvoyId="324a528fc8a348b3b6260ac7e59b3e75" Exported="True" Id="1d2c730e1760478095a22f3dd4657529" />
+			<ComponentItemProperties AssociatedEnvoyId="e7e604420ea247a09d08432357c5559d" Exported="True" Id="bed69b1fb7b64c76bb9b437d57d02ccd" />
+			<ComponentItemProperties AssociatedEnvoyId="8f4f96cca40c41388b7083d0bc3bd8a3" Exported="True" Id="69b75defc78f46498cc6e6869ac24e69" />
+			<ComponentItemProperties AssociatedEnvoyId="e8e5ea63644d4d5487d6b5521477d4f6" Exported="True" Id="e2b2f7e2888c48e1bd30b6b05be890e5" />
+			<ComponentItemProperties AssociatedEnvoyId="1ad43b3adb494c2e82c464584465adb3" Exported="True" Id="39b3b923852e44979452e45f0ffbcf6e" />
+			<ComponentItemProperties AssociatedEnvoyId="3e9b574758bb47ac9d6868a2074b9919" Exported="True" Id="ac3d193420174bc9910923a8fdd9e986" />
+			<ComponentItemProperties AssociatedEnvoyId="4b443d9be364c2dacd36d240941ff0f" Exported="True" Id="13446c45a4454ac99f7c4ab8ba15cead" />
+			<ComponentItemProperties AssociatedEnvoyId="aa7791b4da814ebebe28ea72660e837f" Exported="True" Id="606bfbb706894aa684b20e06c2ef75e9" />
+			<ComponentItemProperties AssociatedEnvoyId="f68cf508f13943228214e09f20529730" Exported="True" Id="3ee5464ae3594b8d990287d5c8715295" />
+			<ComponentItemProperties AssociatedEnvoyId="7ccb39ac67c748dd8cf0ba76fd7fb28d" Exported="True" Id="aae0c57306e04d4bad14ec93fe90ba57" />
+			<ComponentItemProperties AssociatedEnvoyId="2e9c596f0e540aab76340be45fb1d59" Exported="True" Id="71b0ac7fe4ad4b8691208e486495a3d1" />
+			<ComponentItemProperties AssociatedEnvoyId="c91e03d24dd4216ba0a37c420675191" Exported="True" Id="2322734e1c24f5a822ba9db0a048973" />
+			<ComponentItemProperties AssociatedEnvoyId="5b0fd496a1374995859005e31e4ac865" Exported="True" Id="998ea5aac9624fca9943f76ae3d70709" />
+			<ComponentItemProperties AssociatedEnvoyId="d6119e1b9bf545878c1389904685beb2" Exported="True" Id="53c2752122554e71a774888313c860c3" />
+			<ComponentItemProperties AssociatedEnvoyId="4e17e4b1d4bb453f8d1a7614e53f0130" Exported="True" Id="51d255f38d4742f8b8e3d4ec2f2f184f" />
+			<ComponentItemProperties AssociatedEnvoyId="417b2ac2a6de46ddbccca00d81a30326" Exported="True" Id="26d0c0f4592b476abe0f1d87561e31cd" />
+			<ComponentItemProperties AssociatedEnvoyId="b5632e8fbcba4666b791a21a06804656" Exported="True" Id="41b9f8cc7251475598e66dbb0985bf7f" />
+			<ComponentItemProperties AssociatedEnvoyId="b3e49b261374ad5bfa475d73cc55817" Exported="True" Id="ac20cb78fffe4086b225e7945ba9ed25" />
+			<ComponentItemProperties AssociatedEnvoyId="abae5744d7924761bd45c4a48e98dcf7" Exported="True" Id="de534c62b2846a0badd6955ef42113a" />
+			<ComponentItemProperties AssociatedEnvoyId="4fad8ec816914d9d889253f87755874b" Exported="True" Id="397b98f87d704f969b6e44665f288084" />
+			<ComponentItemProperties AssociatedEnvoyId="6e1f830e35684f33b30dbfcc920b1e5d" Exported="True" Id="e386a6d0e81d4e6cb4c40b19743f01a4" />
+			<ComponentItemProperties AssociatedEnvoyId="29e4fbb1a623480ebc95e2f601ed51a2" Exported="True" Id="d7126719fe114295b67df29eaff23253" />
+			<ComponentItemProperties AssociatedEnvoyId="48c43bfbb238451a906160f74f0c20e0" Exported="True" Id="bce7597152134df995e247629f1ec386" />
+			<ComponentItemProperties AssociatedEnvoyId="35f71165e8943a58d6f7b6dbb0f6848" Exported="True" Id="ed4e84cfaeb24fc897b787915b34eb03" />
+			<ComponentItemProperties AssociatedEnvoyId="4d72b29a9dbc4fd69bc9c091b1fb881e" Exported="True" Id="369ed785e7344f68a7d95d24d629ab20" />
+			<ComponentItemProperties AssociatedEnvoyId="553cfc113caa4c00a1590ee1ae55ae8a" Exported="True" Id="2db99d7d79074075a576d5018cfb72d4" />
+			<ComponentItemProperties AssociatedEnvoyId="641e60b0171b4074986a051445a86125" Exported="True" Id="eb3576300a7e4c5db8474484f2d406ea" />
+			<ComponentItemProperties AssociatedEnvoyId="fdc2f88612744530b5e89e34f925332c" Exported="True" Id="89a0640e94ab44e4be80b8d665fcf69c" />
+			<ComponentItemProperties AssociatedEnvoyId="4db5ac4c63dd4ea38f560e5be56ccbe7" Exported="True" Id="8f556cd5a3ce4e819cb39e41048a16a1" />
+			<ComponentItemProperties AssociatedEnvoyId="a1328e311a9f4407b488009b2071cec6" Exported="True" Id="4137891124e14db98b0356cc0aaa572c" />
+			<ComponentItemProperties AssociatedEnvoyId="98cddbe254a472b85a4890623597365" Exported="True" Id="4eef068311894d4faf8c20fa3523e693" />
+			<ComponentItemProperties AssociatedEnvoyId="7538b32f5e1d43578cab9b95d013a4d0" Exported="True" Id="d565c00a8eec435aa56cde4ed939dc65" />
+			<ComponentItemProperties AssociatedEnvoyId="b1f859ea209241068716a1ad5a32bc18" Exported="True" Id="6035dbdb3363419c81b6aaf0e67feb35" />
+			<ComponentItemProperties AssociatedEnvoyId="65f3c997d3e74d65b3514cea44f6f1cd" Exported="True" Id="1cc91b95ba624b949e0d347a2e7a72a6" />
+			<ComponentItemProperties AssociatedEnvoyId="45533492a87c498ea1bbf660b81119c0" Exported="True" Id="ee019b24e5b549f280319ee2c03e10c0" />
+			<ComponentItemProperties AssociatedEnvoyId="7ab062dea8464211b50b716765173a82" Exported="True" Id="5f627ee46d634d518070801f8e9b11bd" />
+			<ComponentItemProperties AssociatedEnvoyId="a7e02c1bd82143bdb982d11cd1449253" Exported="True" Id="9ee3e9ab41e84a56bf8b79a6fc6f7dc1" />
+			<ComponentItemProperties AssociatedEnvoyId="9a8578ff707944a18bae7d523f0e62ac" Exported="True" Id="4973dcb16c1b495e90ff186e452bf97a" />
+			<ComponentItemProperties AssociatedEnvoyId="9e0e5ce58c674f3488d7be41686cc241" Exported="True" Id="69e89f6b4cf418589aea2da3c06f0dc" />
+			<ComponentItemProperties AssociatedEnvoyId="8554073bd1ce492bbaf0b4f552bb61ba" Exported="True" Id="489062640544401ca2602501d5e7054c" />
+			<ComponentItemProperties AssociatedEnvoyId="7a4f7380a4294267b355e67f630537a1" Exported="True" Id="26882e747ba94ca3960d389a773162eb" />
+			<ComponentItemProperties AssociatedEnvoyId="3f790c054736498cb7fdcc789fe8bc0c" Exported="True" Id="1dcc8a588e2b4276949a663d2aff650a" />
+			<ComponentItemProperties AssociatedEnvoyId="6283fee786434bf58fca604ea93ffe43" Exported="True" Id="ba68c24cd4a04cbbba397e624e0f0175" />
+			<ComponentItemProperties AssociatedEnvoyId="3e502752411e413785555fa3235f0c6b" Exported="True" Id="7485d557395d42268a99daafe866701b" />
+			<ComponentItemProperties AssociatedEnvoyId="e19711e5345d43cca71e4c9b6030f2e7" Exported="True" Id="53a3c148bfe44d10a1801b1d1b0a5bb6" />
+			<ComponentItemProperties AssociatedEnvoyId="f1addb888a14a7992c0e2ff6197061c" Exported="True" Id="f5a81e1400ec4f6497d591e1014a4712" />
+			<ComponentItemProperties AssociatedEnvoyId="2766b95a69dc40fdaf28d49792d01679" Exported="True" Id="98cb75491fa146bfa4660cdb35270010" />
+			<ComponentItemProperties AssociatedEnvoyId="91f43e82f27a4f039367a0eb4a081e6e" Exported="True" Id="78ba47c5d284412f9461a2f7eb4575ee" />
+			<ComponentItemProperties AssociatedEnvoyId="a18ed2b0980408183c848183259c903" Exported="True" Id="79a3c38277254f9ca7c88c24c8ced5e6" />
+			<ComponentItemProperties AssociatedEnvoyId="1ab2c4c842a247b4ab5986629dae1cac" Exported="True" Id="382b535f19484bd884422c0f65c51aa8" />
+			<ComponentItemProperties AssociatedEnvoyId="a79d73db74834e37910a10417581d176" Exported="True" Id="11c851eeb044888a1254af352fe6000" />
+			<ComponentItemProperties AssociatedEnvoyId="9a1b4ef4d97e48a78aeec0a65a68066e" Exported="True" Id="9a0cb13489bb456ca9682d483c25bf20" />
+			<ComponentItemProperties AssociatedEnvoyId="369cac9c152c40f1a087de73306c7dfb" Exported="True" Id="44d75c83d7d47538fd1050916e9fe19" />
+			<ComponentItemProperties AssociatedEnvoyId="aa8a7a8af1dd4f8aa468f85005b132d4" Exported="True" Id="a581ada9dad844888cea5010dca535f5" />
+			<ComponentItemProperties AssociatedEnvoyId="39dff2fe8fa94013935e89cf7c688d9f" Exported="True" Id="979622424cf94a57856c66359ed392b3" />
+			<ComponentItemProperties AssociatedEnvoyId="5325cd6507d456ca58aae20152cd0d4" Exported="True" Id="9462c46dc8e24d908cb977009d6bae37" />
+			<ComponentItemProperties AssociatedEnvoyId="80c2aed396ce457085573ebec4d61dc0" Exported="True" Id="d31b105afdf04ab2bc81fdeadac0c081" />
+			<ComponentItemProperties AssociatedEnvoyId="2ebd179e825940eb9d1e2f4cf8450d07" Exported="True" Id="fecd83bf8bde4c0fa4c9933d5c5f9bb9" />
+			<ComponentItemProperties AssociatedEnvoyId="531598c46b8c4dd88a6832017ece70b5" Exported="True" Id="f0feab0c804a4418b94eea6368c8fbc4" />
+			<ComponentItemProperties AssociatedEnvoyId="2fb59fe7efcd41e4ae6c3e4287c71aeb" Exported="True" Id="4b67d948aa5047c4b96b17f1b8a11107" />
+			<ComponentItemProperties AssociatedEnvoyId="589604ac5b4e0b880ccd31c986301f" Exported="True" Id="ee1f287203004260862cdb35c7ef4c77" />
+			<ComponentItemProperties AssociatedEnvoyId="e9923829baa84747b0934321f4caa135" Exported="True" Id="d652dc14f7f438190b1cd08f2631f19" />
+			<ComponentItemProperties AssociatedEnvoyId="3c93601ab6f74484b45386207e425e16" Exported="True" Id="72cdf165325e4fbc835aeb523feed134" />
+			<ComponentItemProperties AssociatedEnvoyId="31212383c77f4ee58bd468da4df4395a" Exported="True" Id="34a9e4b26fa84f27b973222dd86812aa" />
+			<ComponentItemProperties AssociatedEnvoyId="d8d97524f9994b42926766693c7471c7" Exported="True" Id="8a856fc2b4ca44d381975a2c74c7bee1" />
+			<ComponentItemProperties AssociatedEnvoyId="be7b28066bf748c8a9fca17559d21ab1" Exported="True" Id="106f1dd703cb4a82a831ee2b3b62489a" />
+			<ComponentItemProperties AssociatedEnvoyId="fb5bd333ca384eab94c7f7d398820e29" Exported="True" Id="d8f308946dbd43ada3ff8d1efcf4dfe8" />
+			<ComponentItemProperties AssociatedEnvoyId="8abab0566ad745a1844ecf410893791c" Exported="True" Id="7504c9069e4e4813b4165559d7fc3ff8" />
+			<ComponentItemProperties AssociatedEnvoyId="e5dc68425c644169575c128a2bdb2c0" Exported="True" Id="9d1bbb157c2a40dcbc2056d045ad8299" />
+			<ComponentItemProperties AssociatedEnvoyId="b413296f8ca74fafa040458483439a0a" Exported="True" Id="b3c1863c81be4e9ca33b5d66556de273" />
+			<ComponentItemProperties AssociatedEnvoyId="72731069786b4b249b077233b48e3a47" Exported="True" Id="ddaf64f5ebd146aabdda59cac0dfc38a" />
+			<ComponentItemProperties AssociatedEnvoyId="efd96d5372f740d694ce3ca498b3a4c1" Exported="True" Id="55a8da52b11498eab3a3e30d428d8c6" />
+			<ComponentItemProperties AssociatedEnvoyId="5d4b10fd770343279f2e8eeadc66f336" Exported="True" Id="d392cdd028e24326913f2e03b18b4e86" />
+			<ComponentItemProperties AssociatedEnvoyId="bb75ec8e0b7a409e9fe3cd96ff6cba64" Exported="True" Id="3c05c90bfbb54626952dc3ef33871020" />
+			<ComponentItemProperties AssociatedEnvoyId="526ec9ce259648399280fdde4c2f8bf7" Exported="True" Id="201f9d7569bf4aac9775dd2c1d710201" />
+			<ComponentItemProperties AssociatedEnvoyId="15d02095333041e385b2b0db278bf2e4" Exported="True" Id="3e5a7f8abd8b49cab6a3e4a38e530a10" />
+			<ComponentItemProperties AssociatedEnvoyId="94ecbbef4ba54e99bf81ae6627610f47" Exported="True" Id="db281704eae543ef9d75f3124f04faf0" />
+			<ComponentItemProperties AssociatedEnvoyId="f04478ab3aef4373800fb68b1d764672" Exported="True" Id="e40e41059c0d4c56a6e256d5eb84386f" />
+			<ComponentItemProperties AssociatedEnvoyId="50cc284a184d41ee924c59a2896c83d3" Exported="True" Id="9c0b45a2d9224593999f0ff4f311c831" />
+			<ComponentItemProperties AssociatedEnvoyId="e3c326cf73ce4bac86148456dc0eea3c" Exported="True" Id="4896aa46073d4294b91c6e3875bf1857" />
+			<ComponentItemProperties AssociatedEnvoyId="45393d7efca94b90a323dc71b9975ae8" Exported="True" Id="5c04d2e8972e46ef90a02df656517094" />
+			<ComponentItemProperties AssociatedEnvoyId="6397305ae89a46e5a7fa95fc3ff0fb1f" Exported="True" Id="b126b8aadfde48dab5e5b1173acf74bc" />
+			<ComponentItemProperties AssociatedEnvoyId="f639d9a137474075b910e563be701b9e" Exported="True" Id="e735d71be3eb450b8bf552c9c88de2ad" />
+			<ComponentItemProperties AssociatedEnvoyId="6896d7d79d824b178da85aa397d54868" Exported="True" Id="c9d1ad01a2df4e06aea649f8e86b24ea" />
+			<ComponentItemProperties AssociatedEnvoyId="3e1a43cd8db94755b5f96aad1d28d3bd" Exported="True" Id="de66972790646a4ae8a5b5988ee7aa9" />
+			<ComponentItemProperties AssociatedEnvoyId="8c1c546c88994f80803b218c6ec376b7" Exported="True" Id="dd612bb1481d4abe847258ee47c524c4" />
+			<ComponentItemProperties AssociatedEnvoyId="7b0f78c1cc0e40aa87edb5ce273b30f8" Exported="True" Id="991b0fc3f0d3424e8f05a9e8b58e4bae" />
+			<ComponentItemProperties AssociatedEnvoyId="b9ea8a1cc008442f907984a3983e72b0" Exported="True" Id="ee5857123f1f453c9c0b0a399170f265" />
+			<ComponentItemProperties AssociatedEnvoyId="466998d6b5174c1bbb42bd6a22b38d55" Exported="True" Id="a06dd784b94849bbaad8e9503fba83e6" />
+			<ComponentItemProperties AssociatedEnvoyId="a62468fd837f4441837d03c4a61a31fd" Exported="True" Id="c3ee8ad00679462ab1d5372d3a2e5b39" />
+			<ComponentItemProperties AssociatedEnvoyId="b56425648e364217a441789d6c56a41f" Exported="True" Id="2242f51edcf143df977f0ba58f05b718" />
+			<ComponentItemProperties AssociatedEnvoyId="9b2f433ef9d54f608193f2b782cd554e" Exported="True" Id="39377a68333a4fe4be9f3f3cc51be3aa" />
+			<ComponentItemProperties AssociatedEnvoyId="7b007a02a9ef4be2b281b39d71e33d9c" Exported="True" Id="b45ac6a815654e7f863ebf9e12eb0ece" />
+			<ComponentItemProperties AssociatedEnvoyId="305eabc32f3a41b3abeedb0de0d6c9f5" Exported="True" Id="a95af0500d3546dcb0b4067db90d3fc3" />
+			<ComponentItemProperties AssociatedEnvoyId="97e39946a460491f83ceb32d9deda3ba" Exported="True" Id="f943e9f815c440e19bcd297f9d26573d" />
+			<ComponentItemProperties AssociatedEnvoyId="5e25371002134b80a7a75cefbd6f4f1b" Exported="True" Id="33dc8333699e4a968539895ca4836f66" />
+			<ComponentItemProperties AssociatedEnvoyId="2bb6631482724122a27dc607f39a5c23" Exported="True" Id="b64c95efaca94712a4a0a13f06c452da" />
+			<ComponentItemProperties AssociatedEnvoyId="f8d1e5ad969242b8b4b0bde85e493bcd" Exported="True" Id="92878863835f4a5da1a95cd062645999" />
+			<ComponentItemProperties AssociatedEnvoyId="b3a1818a01cc4170999a12db03a3608d" Exported="True" Id="c4f0ac5b69594596babeafd6c9c43b87" />
+			<ComponentItemProperties AssociatedEnvoyId="b273b9b513f34349bfa03ba354dd1d02" Exported="True" Id="ddae726a5a8f4efaa4fb707b00721629" />
+			<ComponentItemProperties AssociatedEnvoyId="28dc8c9c0c5641faa94d2ddd07eedf40" Exported="True" Id="c220ad7914794de59b07ae69102b73e5" />
+			<ComponentItemProperties AssociatedEnvoyId="341729f2686f48169c379c82332dbb51" Exported="True" Id="2cfeec39f81a4029b349d3e92214356f" />
+			<ComponentItemProperties AssociatedEnvoyId="60aad636d4fb41e8bcb780e1bb03ef65" Exported="True" Id="15fd0fa0e8f649beb2c0dc77bf57f76f" />
+			<ComponentItemProperties AssociatedEnvoyId="3f39f3faa5bc4974a9dc59a06eaa71b9" Exported="True" Id="429164d80f64574b013473b621df7c2" />
+			<ComponentItemProperties AssociatedEnvoyId="3fff0b1cc7a84bc9bd1f81bc4b48cd75" Exported="True" Id="8ec65fa6e8364e9c852a363c37dfd4be" />
+			<ComponentItemProperties AssociatedEnvoyId="48ef62478a964944bd90fe5238984025" Exported="True" Id="1effec0eb849432fa249d5ed2999bee1" />
+			<ComponentItemProperties AssociatedEnvoyId="f590b63847df4e9587df9dce1b6c5c15" Exported="True" Id="2ee8279256494ea6880298b27f79d29c" />
+			<ComponentItemProperties AssociatedEnvoyId="8d97700aab4943e5ae54f733e45dfd0f" Exported="True" Id="a38da625563d4de5af7e24f1c93f8496" />
+			<ComponentItemProperties AssociatedEnvoyId="848c404fe57841ceb939a22bf74b5daf" Exported="True" Id="2e4e40bfbe6945b59136ac055c8ffc63" />
+			<ComponentItemProperties AssociatedEnvoyId="78359be4e7cc4150b7676ecb39854e94" Exported="True" Id="26c2f6d0feba459890f660b7c14e1281" />
+			<ComponentItemProperties AssociatedEnvoyId="a41cd13232094f5b94609213e08381cf" Exported="True" Id="2d362e884584bf7804803bf4037ee97" />
+			<ComponentItemProperties AssociatedEnvoyId="578636804b274a43878b20619c86f526" Exported="True" Id="3e760f4fa989466597dbf67f6287046d" />
+			<ComponentItemProperties AssociatedEnvoyId="caafdbe2c25940579832e57db7369599" Exported="True" Id="c43f56399ac74a7a8e4995ace89547a0" />
+			<ComponentItemProperties AssociatedEnvoyId="60b9904437154fe6a9d4accc2da1e341" Exported="True" Id="9761722ece7c4421915061f99ee59513" />
+			<ComponentItemProperties AssociatedEnvoyId="d8f7f646005d4009b432f94aa7bb239e" Exported="True" Id="5ec82a0c05984412bcd4f6372e276186" />
+			<ComponentItemProperties AssociatedEnvoyId="e65d79a07baf487ca5ff89dd83fcba0c" Exported="True" Id="9b3e04c95ead41a383626498dc663b27" />
+			<ComponentItemProperties AssociatedEnvoyId="13cae348041442549206638b0d5286ec" Exported="True" Id="d6c0c9bf9a8c4903867a25026f4a058a" />
+			<ComponentItemProperties AssociatedEnvoyId="67c7a35045b44d188eb7bafcff138187" Exported="True" Id="ec1979bdcad2470594ebaec6dd490018" />
+			<ComponentItemProperties AssociatedEnvoyId="78419db67dfa49b09c763b7e7f5ce52a" Exported="True" Id="8320968d9ba4480bb0d0c786380aaf1c" />
+			<ComponentItemProperties AssociatedEnvoyId="3bb9be297da1421fb09db3aa94c41de7" Exported="True" Id="990007541916450ebdefc6719c88f8f3" />
+			<ComponentItemProperties AssociatedEnvoyId="fff17a54910745f4bd36f2531dde0504" Exported="True" Id="7505289957d84bbdaff8724efcfe29ef" />
+			<ComponentItemProperties AssociatedEnvoyId="870553e2742b4998b2b2fa64d0d0e910" Exported="True" Id="2bfcd44789124d75a1b038b06815b9b9" />
+			<ComponentItemProperties AssociatedEnvoyId="4ebece9ba433427fb1bddc2ae655e351" Exported="True" Id="6b4994d8f94c4803b28cdad7a4bd82f7" />
+			<ComponentItemProperties AssociatedEnvoyId="a363db02f1b74bcd84889b950ed28be2" Exported="True" Id="492771d1ccd24755865232972769ab45" />
+			<ComponentItemProperties AssociatedEnvoyId="2375616e095b4894a5aa5acb1e05d5dd" Exported="True" Id="d63f3cde86aa446aa593156c9c263e5e" />
+			<ComponentItemProperties AssociatedEnvoyId="1b157926f4ad42c9b0d505ddbdb15f85" Exported="True" Id="f771067cd7fa4e2b9d7ad812f063d92c" />
+			<ComponentItemProperties AssociatedEnvoyId="38e51099c4dd42a4a82c563198619a27" Exported="True" Id="83c0b8c64b664049a7d4ae2c70d31cf4" />
+			<ComponentItemProperties AssociatedEnvoyId="ac3a8acfb1544331ac3d7d18c0baf203" Exported="True" Id="d6091cc58cc84f41a917f25eca4f4471" />
+			<ComponentItemProperties AssociatedEnvoyId="dad35e4919ad45b78820da06b2c6c32b" Exported="True" Id="17f5e35e362048b79f7ac1de31c9a624" />
+			<ComponentItemProperties AssociatedEnvoyId="8f5b780ed0574ed69ca317241f188fb4" Exported="True" Id="80df4722270a4683842a25a9a16e8fc9" />
+			<ComponentItemProperties AssociatedEnvoyId="6fdc1a0a0f884826a626add5e97f228b" Exported="True" Id="8c27d399434b43cfb21c8d2969198306" />
+			<ComponentItemProperties AssociatedEnvoyId="da52ab0c060f4b07837dee213f51f3c4" Exported="True" Id="b2752124d414d4785bcfcb83e7e2ce3" />
+			<ComponentItemProperties AssociatedEnvoyId="ed6c97b4a32d4d54a2b063c2fb4de34f" Exported="True" Id="32f79bda15b24d6fbc41ed4b9724d44f" />
+			<ComponentItemProperties AssociatedEnvoyId="5469c0963e4c508e30ecac95b4ccf8" Exported="True" Id="7ec60ac90f7440cdbc45277b02b7fcab" />
+			<ComponentItemProperties AssociatedEnvoyId="eb3d20344b9d44eb8901b597b6356a33" Exported="True" Id="bd5be65c93fc4a528e5c9ed857b6accc" />
+			<ComponentItemProperties AssociatedEnvoyId="adbd43b3d43247fba61f9c06df123d38" Exported="True" Id="93425085f9304c41b31d2fb4939c70d5" />
+			<ComponentItemProperties AssociatedEnvoyId="f0666e34eb0e444fa5d888530db25d17" Exported="True" Id="ea1214fbe3ca4bb9999718bab46b5066" />
+			<ComponentItemProperties AssociatedEnvoyId="9ddc99a0bd664b269c58b366d0a54432" Exported="True" Id="a622399f9289461ca8ea6a21ace82fa5" />
+			<ComponentItemProperties AssociatedEnvoyId="8517446ef32b4a12b1228c055185b29c" Exported="True" Id="550c75ed63f345418ad1f8f4196f6b45" />
+			<ComponentItemProperties AssociatedEnvoyId="45d9d2943454d14ab5ab62501e7005f" Exported="True" Id="5d5a94d81af6448fa3f999b737b2f2db" />
+			<ComponentItemProperties AssociatedEnvoyId="939c677a270d4658b6cfe01b34483504" Exported="True" Id="521b2e49d83d494ba80d8e7af0a54da1" />
+			<ComponentItemProperties AssociatedEnvoyId="a7a707b1214b49959300d91ea25d049b" Exported="True" Id="eeda3de8a3de4f0096e46c7de340f529" />
+			<ComponentItemProperties AssociatedEnvoyId="3ad123b7138449a8a3e7444b70bfd9b6" Exported="True" Id="d2d7b3f722804115bb2c88d65adad0ef" />
+			<ComponentItemProperties AssociatedEnvoyId="a697bae542824c4fa6f9e46d1ae02ed5" Exported="True" Id="57d5cdc542ba44f2abce1ceacd83bb6d" />
+			<ComponentItemProperties AssociatedEnvoyId="3caeedf06ac4746b575b6e650cc061a" Exported="True" Id="c231d61192ee4517a700e124a8f615ed" />
+			<ComponentItemProperties AssociatedEnvoyId="2696bd4ef27c4ac7b49415793427eea9" Exported="True" Id="4d97e33ff0dd4781a8d1f24222eceff1" />
+			<ComponentItemProperties AssociatedEnvoyId="e826338f77894693bdbeb16c74cb64d2" Exported="True" Id="681d57c18f804b69828d9df14fe1aced" />
+			<ComponentItemProperties AssociatedEnvoyId="f6088f7870634dcd9ee9ed23b22ed3ca" Exported="True" Id="30b321ef7b084f9392c3fe6ad98af7df" />
+			<ComponentItemProperties AssociatedEnvoyId="ee4f1ab0dc04372a588f65c26af0883" Exported="True" Id="92e491710a7543da97cc05b74553b082" />
+			<ComponentItemProperties AssociatedEnvoyId="51e71c91f5a0437cbbc0593b3fcf9e30" Exported="True" Id="5ddb01495aa04708b371c62c63773c7f" />
+			<ComponentItemProperties AssociatedEnvoyId="c92bb26a2e514924b9cc9f336799d5d7" Exported="True" Id="3de4056cb23a433d8f53c96cad8fdbc3" />
+			<ComponentItemProperties AssociatedEnvoyId="5dc7092cc6ad4d9bb044254ba5c2f907" Exported="True" Id="c5974a13965c4526b06f8ee7f952e308" />
+			<ComponentItemProperties AssociatedEnvoyId="df67a5fcf0254dfaa8f1ce16bccd996d" Exported="True" Id="101f796079c94f6d9da31bd3c716929d" />
+			<ComponentItemProperties AssociatedEnvoyId="1426a5671084478b25d1e7fdc3babae" Exported="True" Id="1f38ab47a7d14ba98844d382a697cb7c" />
+			<ComponentItemProperties AssociatedEnvoyId="1b65011abea64aec933e4085fc555006" Exported="True" Id="91b1ef3f7c7c4eaeb583624a342a7a9e" />
+			<ComponentItemProperties AssociatedEnvoyId="e710c8af6dfe4e998291f84181add383" Exported="True" Id="90f1ea5fdbbf46b4b10ee56269087848" />
+			<ComponentItemProperties AssociatedEnvoyId="fb7a898e3a974853a56407f1037052ca" Exported="True" Id="b54f21769ac642518f500c447b09aeed" />
+			<ComponentItemProperties AssociatedEnvoyId="f6cfda59de4f46ec964520638887365d" Exported="True" Id="d066f8447d344587a2889c84c1b7acdd" />
+			<ComponentItemProperties AssociatedEnvoyId="360f9ee7661b4ccdbe5058bf3bbc542e" Exported="True" Id="37957bb36cbb4642925ea87bdc63a6b0" />
+			<ComponentItemProperties AssociatedEnvoyId="2eae04e6b5fb4b0883de1fcd22750cf5" Exported="True" Id="9e81358453643af8503516ecb285cc6" />
+			<ComponentItemProperties AssociatedEnvoyId="22371be8751f43c0983bf31ed835713b" Exported="True" Id="1b3d08a4ebfc43f791c20b2264cca66f" />
+			<ComponentItemProperties AssociatedEnvoyId="67b54c28b471431dbce137baa4ce8951" Exported="True" Id="94799879b19440289b6bf2e057695422" />
+			<ComponentItemProperties AssociatedEnvoyId="cde2ef4005444148821cf082169451b1" Exported="True" Id="3d218df9e9144673b78f98b6ed0e5d87" />
+			<ComponentItemProperties AssociatedEnvoyId="1a5e7162adee4aaa95c516138d508c2c" Exported="True" Id="ba499dd146fa443cbcd847f54605be91" />
+			<ComponentItemProperties AssociatedEnvoyId="7134ded1b94c458099f3690903bd8616" Exported="True" Id="f4967e3167246fb9a3e006f083492a9" />
+			<ComponentItemProperties AssociatedEnvoyId="98a08d6366de449784fc27b08448ca45" Exported="True" Id="bf5da5e4d28f494fbbda5787930fbe4b" />
+			<ComponentItemProperties AssociatedEnvoyId="daac8f7a92374c8a8a360bff558a5dc2" Exported="True" Id="32244486305e4c5d917f06f0d9a8db62" />
+			<ComponentItemProperties AssociatedEnvoyId="1937b98a7242473f8db5f44e2242555b" Exported="True" Id="39d1dbd13db240109704dcfc7efdf643" />
+			<ComponentItemProperties AssociatedEnvoyId="ba4a1a5e53f34b79a54ef1f6b131845b" Exported="True" Id="b02edc523ae44e4b196bca2632ba2a0" />
+			<ComponentItemProperties AssociatedEnvoyId="1280aef48c842a3a4eb3cc4c461fcac" Exported="True" Id="ec81f1a87dda4b0da3aaea945e86d015" />
+			<ComponentItemProperties AssociatedEnvoyId="bb7e8fb59d184b39b88b13afa3b93606" Exported="True" Id="9ac4971636ee43869e30f2be2b67ee3d" />
+			<ComponentItemProperties AssociatedEnvoyId="ff836cf5f8034e0fbb3e013d0aca74be" Exported="True" Id="770b195a64b84ab59abf5b4f5c978a94" />
+			<ComponentItemProperties AssociatedEnvoyId="96407f58df2a4509ad7dd4503851efd8" Exported="True" Id="72d2d808b3154d3a8b85594f9bb33ba9" />
+			<ComponentItemProperties AssociatedEnvoyId="b1a1f570cf5c41a0bba7937934020c71" Exported="True" Id="f799dc7fd91743f8a151a96f275abb70" />
+			<ComponentItemProperties AssociatedEnvoyId="fc750f0d58454f66b0a3e7978906f877" Exported="True" Id="60d316ec7daa4939a02e31cdbed720bd" />
+			<ComponentItemProperties AssociatedEnvoyId="8e0f75de9c9d4fce9fb20ad793b1e516" Exported="True" Id="d495ce6ab81e47a5ad0c94a3b1690b3c" />
+			<ComponentItemProperties AssociatedEnvoyId="bdc09dee3dc64d97b3287b58caed3f17" Exported="True" Id="a97a25422af94b448275251e4a291ad7" />
+			<ComponentItemProperties AssociatedEnvoyId="f0e946e2b9274ab9a9517a0929614efe" Exported="True" Id="826772ed0e754ead8079d676e9f4efc3" />
+			<ComponentItemProperties AssociatedEnvoyId="9f72795b690d49a4b382f6d0726c5bd2" Exported="True" Id="f3016c37331149f99fc3de7082b63b53" />
+			<ComponentItemProperties AssociatedEnvoyId="c3d759505090416083a6d7bcfccd9ae5" Exported="True" Id="27ff997aeac48ae804e7aefc5117f1b" />
+			<ComponentItemProperties AssociatedEnvoyId="f550bc94bd0497c9e1c86cd0f782252" Exported="True" Id="a4d12c8144e346279ba505950a49f702" />
+			<ComponentItemProperties AssociatedEnvoyId="cafebfe14fb492680ceaba4150e7351" Exported="True" Id="f62aee7404ac42909ac9b614044416a5" />
+			<ComponentItemProperties AssociatedEnvoyId="63f95d899dbf4b76840790684954f7c2" Exported="True" Id="4c5c5fad7b640348c75b352cb3b1f09" />
+			<ComponentItemProperties AssociatedEnvoyId="5710dfc0b32c4fef91aefb3aa41bd343" Exported="True" Id="8583183202b44bb18090a002afa08abf" />
+			<ComponentItemProperties AssociatedEnvoyId="6af914c70d3e4314b31889fa2cb8f707" Exported="True" Id="da941383e0574667afcadc8018367166" />
+			<ComponentItemProperties AssociatedEnvoyId="751544762d2f4b1f865d60e07ee823bc" Exported="True" Id="64916b579ad441768815b2d7f8dcb315" />
+			<ComponentItemProperties AssociatedEnvoyId="2670f38b53334172866ee28a6776ce06" Exported="True" Id="cfd19aba8d31438c9f1cbec4fa41e50a" />
+			<ComponentItemProperties AssociatedEnvoyId="7725d083316147edab6808e529155ee9" Exported="True" Id="cc0d8d80560e453caba3c95dce7b72d6" />
+			<ComponentItemProperties AssociatedEnvoyId="2dcce89520094fce949ba80d73e743ad" Exported="True" Id="29eb638453e94186b7bf56fc5fab5e04" />
+			<ComponentItemProperties AssociatedEnvoyId="e32da63b22974924aa003b8458caa4eb" Exported="True" Id="9f8715462c4f4a149fcdff11a4eff4d6" />
+			<ComponentItemProperties AssociatedEnvoyId="371a47a882ad42088f98da84a90e1a29" Exported="True" Id="e9d6e9800b6a41b1aa58857600a462e5" />
+			<ComponentItemProperties AssociatedEnvoyId="7d54db83d02d4706aa3a9aa60ff9ec0c" Exported="True" Id="fa10f3618e37411ab4d281a452add785" />
+			<ComponentItemProperties AssociatedEnvoyId="9f2495f6991c46cda140ca3ba33ef276" Exported="True" Id="79b8315371814857b456fa3a799dcf51" />
+			<ComponentItemProperties AssociatedEnvoyId="c1200d0cbba4a0a9c34be0f9a8068c1" Exported="True" Id="5e064c01771c45d587c9bf1feb4a199f" />
+			<ComponentItemProperties AssociatedEnvoyId="292e1d8aaa6a42ecba97d3fe6e3a7c54" Exported="True" Id="b9e35e102d9d44c08116265d4f0361a9" />
+			<ComponentItemProperties AssociatedEnvoyId="d9e049a2cd664bc991e4a33d6522bc40" Exported="True" Id="e07efce8c87540aeb9df3ca50870531b" />
+			<ComponentItemProperties AssociatedEnvoyId="526df392d9d402daf058f31d4c96ccf" Exported="True" Id="24dca404e5924b97933358e4cfe2aa47" />
+			<ComponentItemProperties AssociatedEnvoyId="92904f516c3449e58a878112c224b3dc" Exported="True" Id="69fea2a65eb84995830161b2dcbc3277" />
+			<ComponentItemProperties AssociatedEnvoyId="3bb832b13e7d489e8f3a32553bcb8640" Exported="True" Id="741f8998003c489fb5be211e9322fb3d" />
+			<ComponentItemProperties AssociatedEnvoyId="996693067aa54f518b113ee353e993ae" Exported="True" Id="d7e0315cde34409db812caa18dc6150c" />
+			<ComponentItemProperties AssociatedEnvoyId="320651fd05fc4ec7a591e1e46ed605b9" Exported="True" Id="52c59803f464235a77156188d5471a1" />
+			<ComponentItemProperties AssociatedEnvoyId="99cb59fa2b6d4018bc2b8432493affd6" Exported="True" Id="3529bf8e12fd4e1288e0119744c41333" />
+			<ComponentItemProperties AssociatedEnvoyId="f17b5dfdb4694b9d9f675764266a85bf" Exported="True" Id="649393e1950847aca8cb832dfbeaea1b" />
+			<ComponentItemProperties AssociatedEnvoyId="81fbb3cdd4284ad48418c2779cacaa77" Exported="True" Id="c8539d5a817146a89459e758a767b5d9" />
+			<ComponentItemProperties AssociatedEnvoyId="bbd9cd8025bf4256abd330c487de4b83" Exported="True" Id="a85bc177bd7b45ab83508998fc23b9b5" />
+			<ComponentItemProperties AssociatedEnvoyId="711056e2e45c4e2fb198e9abda18529a" Exported="True" Id="20170f899c494b79b0e9b09aa4fb6422" />
+			<ComponentItemProperties AssociatedEnvoyId="cfa8c161898d40ceb16f1ce7604d224a" Exported="True" Id="92decd3055a345df9dd8444ef1d8b29a" />
+			<ComponentItemProperties AssociatedEnvoyId="2458532e2d3740ffba0cfb1691c69586" Exported="True" Id="4fd41e45917b4747a2715e922e185c3e" />
+			<ComponentItemProperties AssociatedEnvoyId="e79710cf9e724755bcb7132dd4742b00" Exported="True" Id="66dd56deac854547b6498a1ab32db0c6" />
+			<ComponentItemProperties AssociatedEnvoyId="1c09cdafa76246b7846c959b6d654e17" Exported="True" Id="56fe9da7e3b843a69b514557f287f3dc" />
+			<ComponentItemProperties AssociatedEnvoyId="3724b26541814da5b22d54df6cb9df28" Exported="True" Id="3ebfc713eb084c039233c637feb8e045" />
+			<ComponentItemProperties AssociatedEnvoyId="a0531f7b78e84241a3b0d2c3a7567b29" Exported="True" Id="3009fae1ace4394944670a264f3332f" />
+			<ComponentItemProperties AssociatedEnvoyId="9d856c6af3a54eb587d07f7ca2850129" Exported="True" Id="c9925c0e8089435687aa8b17eeb197b8" />
+			<ComponentItemProperties AssociatedEnvoyId="d9f66f6580bf47d9b9569821b3caa251" Exported="True" Id="42357c5a84184c6f8710f9af70497395" />
+			<ComponentItemProperties AssociatedEnvoyId="86b335ed8dc843d3b8ee64bb3dfe33b6" Exported="True" Id="146d892ae6924294bf88477d7ab70c4d" />
+			<ComponentItemProperties AssociatedEnvoyId="aacba00b1bd9449db8cc4fcab0d73c72" Exported="True" Id="e6b390aba64845f6b9c5e44a91470f19" />
+			<ComponentItemProperties AssociatedEnvoyId="8a68a6385a874709af27ae6b72aa06c7" Exported="True" Id="ec27786500f5480abfc7131b0375dd15" />
+			<ComponentItemProperties AssociatedEnvoyId="2d937637546a4245902247378e2adca9" Exported="True" Id="5b87d87afd574d8399356e16b2e4952f" />
+			<ComponentItemProperties AssociatedEnvoyId="2c3d653288ec48ada96aa51d54d8a27f" Exported="True" Id="dc2b455a41d14b34a6e373b418507bb1" />
+			<ComponentItemProperties AssociatedEnvoyId="b2b3b8320b84415abd3a542a97877cc6" Exported="True" Id="537abd656a4c4724b44959c79aa62492" />
+			<ComponentItemProperties AssociatedEnvoyId="db69493fdf38498399b02f0d9fc4f951" Exported="True" Id="4709e5c08411480bb8bef3b8faa0faa2" />
+			<ComponentItemProperties AssociatedEnvoyId="1572e67119a545efa4db17930fed20ca" Exported="True" Id="69b6d1ca3f7a42ed93cd347178e2fe82" />
+			<ComponentItemProperties AssociatedEnvoyId="babb081118447e6a9db133847febd3d" Exported="True" Id="8bca6c4b19ef4d3fbdc4b219ab0616d7" />
+			<ComponentItemProperties AssociatedEnvoyId="cf51fdb9e17d47d28c2f955a2bf9b783" Exported="True" Id="f1b3b602846d4c6ba21b2d0f83fd4f5f" />
+			<ComponentItemProperties AssociatedEnvoyId="1e8a06bb224422999d15c972352f7f9" Exported="True" Id="6b0b68b1990c4526ad978a1de986fe4c" />
+			<ComponentItemProperties AssociatedEnvoyId="fff5bf3790524ea1a862891b3c0ef3fe" Exported="True" Id="9a4e8c3725934bc19c1dabf0e113d12f" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="e8050146ca604a8f8f7e774c768b2179" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="20c5250ef584832bb7442e3639665b6" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="71398aca27a5448cb102fb0e8dbf63e5" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="a19794d702fe46498d914db5edd5bcdc" Name="Labview_NXG_Keithley_SMU_2450_2460_2461">
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="983ba66fd9a4998bfd6c1db7301ec23" Name="Examples">
+					<SourceFileReference Id="344239e4ecf34a35b7e267ee9bdaf40c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Keithley 2450 Output List and Acquire.gvi" StoragePath="Examples\Keithley 2450 Output List and Acquire.gvi" />
+					<SourceFileReference Id="56144053d02842ec9b7f595d151283dd" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Keithley 2450 Read Multiple.gvi" StoragePath="Examples\Keithley 2450 Read Multiple.gvi" />
+					<SourceFileReference Id="592bbe654fd14ccca355b7d651f5b556" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Keithley 2450 Read Single.gvi" StoragePath="Examples\Keithley 2450 Read Single.gvi" />
+					<SourceFileReference Id="e0014a8f3a0741eab66dc9591577c8af" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Keithley 2450 Sweep and Acquire Measurements.gvi" StoragePath="Examples\Keithley 2450 Sweep and Acquire Measurements.gvi" />
+					<SourceFileReference Id="2cc1c612d1554f979125ac7e500f93be" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Keithley 2461 Digitized Sweep.gvi" StoragePath="Examples\Keithley 2461 Digitized Sweep.gvi" />
+					<SourceFileReference Id="245c2430be1b4a298ddf6902f4e7b3be" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Keithley 2461 Pulse Output List and Aquire.gvi" StoragePath="Examples\Keithley 2461 Pulse Output List and Aquire.gvi" />
+					<SourceFileReference Id="5d1e8214c1eb47e480d7c492857821ea" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="VI Tree.gvi" StoragePath="Examples\VI Tree.gvi" />
+				</NameScopingEnvoy>
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="148eb89a4a0a4b1ebfd5d08ad48bfe1d" Name="Action Status">
+					<SourceFileReference Id="2d937637546a4245902247378e2adca9" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Write to all Digital IO Pins.gvi" StoragePath="Action Status\Write to all Digital IO Pins.gvi" />
+					<SourceFileReference Id="2c3d653288ec48ada96aa51d54d8a27f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Set or Reset Digital IO Pins.gvi" StoragePath="Action Status\Set or Reset Digital IO Pins.gvi" />
+					<SourceFileReference Id="b2b3b8320b84415abd3a542a97877cc6" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Set Digital IO Mode.gvi" StoragePath="Action Status\Set Digital IO Mode.gvi" />
+					<SourceFileReference Id="db69493fdf38498399b02f0d9fc4f951" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Read all Digital IO Pins.gvi" StoragePath="Action Status\Read all Digital IO Pins.gvi" />
+					<SourceFileReference Id="1572e67119a545efa4db17930fed20ca" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="In Compliance Query.gvi" StoragePath="Action Status\In Compliance Query.gvi" />
+					<SourceFileReference Id="babb081118447e6a9db133847febd3d" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Digital IO Pins State.gvi" StoragePath="Action Status\Get Digital IO Pins State.gvi" />
+					<SourceFileReference Id="cf51fdb9e17d47d28c2f955a2bf9b783" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Digital IO Pins Mode.gvi" StoragePath="Action Status\Get Digital IO Pins Mode.gvi" />
+					<SourceFileReference Id="1e8a06bb224422999d15c972352f7f9" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Enable Remote Sensing.gvi" StoragePath="Action Status\Enable Remote Sensing.gvi" />
+					<SourceFileReference Id="fff5bf3790524ea1a862891b3c0ef3fe" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Enable Output.gvi" StoragePath="Action Status\Enable Output.gvi" />
+				</NameScopingEnvoy>
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="ae9d491d262849e986765cf1800a19f5" Name="Data">
+					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="63acae1b64674b03b92a23b47845d149" Name="Low Level">
+						<SourceFileReference Id="6283fee786434bf58fca604ea93ffe43" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Wait for Operation Complete.gvi" StoragePath="Data\Low Level\Wait for Operation Complete.gvi" />
+						<SourceFileReference Id="3e502752411e413785555fa3235f0c6b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Send Software Trigger.gvi" StoragePath="Data\Low Level\Send Software Trigger.gvi" />
+						<SourceFileReference Id="e19711e5345d43cca71e4c9b6030f2e7" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Measure Lowlevel.gvi" StoragePath="Data\Low Level\Measure Lowlevel.gvi" />
+						<SourceFileReference Id="f1addb888a14a7992c0e2ff6197061c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initiate.gvi" StoragePath="Data\Low Level\Initiate.gvi" />
+						<SourceFileReference Id="2766b95a69dc40fdaf28d49792d01679" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Fetch (Measurements).gvi" StoragePath="Data\Low Level\Fetch (Measurements).gvi" />
+						<SourceFileReference Id="91f43e82f27a4f039367a0eb4a081e6e" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Abort.gvi" StoragePath="Data\Low Level\Abort.gvi" />
+					</NameScopingEnvoy>
+					<SourceFileReference Id="a18ed2b0980408183c848183259c903" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Read (Single Point).gvi" StoragePath="Data\Read (Single Point).gvi" />
+					<SourceFileReference Id="1ab2c4c842a247b4ab5986629dae1cac" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Read (Multiple Points).gvi" StoragePath="Data\Read (Multiple Points).gvi" />
+					<SourceFileReference Id="a79d73db74834e37910a10417581d176" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Read (Digitize).gvi" StoragePath="Data\Read (Digitize).gvi" />
+					<SourceFileReference Id="9a1b4ef4d97e48a78aeec0a65a68066e" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Query Limit Test Data.gvi" StoragePath="Data\Query Limit Test Data.gvi" />
+					<SourceFileReference Id="369cac9c152c40f1a087de73306c7dfb" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Make Reading and Store in Buffer.gvi" StoragePath="Data\Make Reading and Store in Buffer.gvi" />
+					<SourceFileReference Id="aa8a7a8af1dd4f8aa468f85005b132d4" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Number of Readings in the Buffer.gvi" StoragePath="Data\Get Number of Readings in the Buffer.gvi" />
+					<SourceFileReference Id="39dff2fe8fa94013935e89cf7c688d9f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Fetch Read Buffer Statistics.gvi" StoragePath="Data\Fetch Read Buffer Statistics.gvi" />
+				</NameScopingEnvoy>
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="30834b6cc09042cc8ecb75467f47614d" Name="Configure">
+					<SourceFileReference Id="5325cd6507d456ca58aae20152cd0d4" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Store Configuration List.gvi" StoragePath="Configure\Store Configuration List.gvi" />
+					<SourceFileReference Id="80c2aed396ce457085573ebec4d61dc0" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Setting Powered ON Setup.gvi" StoragePath="Configure\Setting Powered ON Setup.gvi" />
+					<SourceFileReference Id="2ebd179e825940eb9d1e2f4cf8450d07" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Set Trigger Timer State.gvi" StoragePath="Configure\Set Trigger Timer State.gvi" />
+					<SourceFileReference Id="531598c46b8c4dd88a6832017ece70b5" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Set Trigger Timer Delay.gvi" StoragePath="Configure\Set Trigger Timer Delay.gvi" />
+					<SourceFileReference Id="2fb59fe7efcd41e4ae6c3e4287c71aeb" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Set Trigger Timer Count.gvi" StoragePath="Configure\Set Trigger Timer Count.gvi" />
+					<SourceFileReference Id="589604ac5b4e0b880ccd31c986301f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Set Pulse Amplitude.gvi" StoragePath="Configure\Set Pulse Amplitude.gvi" />
+					<SourceFileReference Id="e9923829baa84747b0934321f4caa135" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Set Measurement Count.gvi" StoragePath="Configure\Set Measurement Count.gvi" />
+					<SourceFileReference Id="3c93601ab6f74484b45386207e425e16" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Set GPIB Address.gvi" StoragePath="Configure\Set GPIB Address.gvi" />
+					<SourceFileReference Id="31212383c77f4ee58bd468da4df4395a" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Set Buffer Size.gvi" StoragePath="Configure\Set Buffer Size.gvi" />
+					<SourceFileReference Id="d8d97524f9994b42926766693c7471c7" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Set Buffer Filling Mode.gvi" StoragePath="Configure\Set Buffer Filling Mode.gvi" />
+					<SourceFileReference Id="be7b28066bf748c8a9fca17559d21ab1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Set Absolute Time.gvi" StoragePath="Configure\Set Absolute Time.gvi" />
+					<SourceFileReference Id="fb5bd333ca384eab94c7f7d398820e29" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Save Message from Event Log.gvi" StoragePath="Configure\Save Message from Event Log.gvi" />
+					<SourceFileReference Id="8abab0566ad745a1844ecf410893791c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Save Buffer to File in the USB.gvi" StoragePath="Configure\Save Buffer to File in the USB.gvi" />
+					<SourceFileReference Id="e5dc68425c644169575c128a2bdb2c0" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Load Trigger Model Configuration Lists.gvi" StoragePath="Configure\Load Trigger Model Configuration Lists.gvi" />
+					<SourceFileReference Id="b413296f8ca74fafa040458483439a0a" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Getting Powered ON Setup.gvi" StoragePath="Configure\Getting Powered ON Setup.gvi" />
+					<SourceFileReference Id="72731069786b4b249b077233b48e3a47" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Version.gvi" StoragePath="Configure\Get Version.gvi" />
+					<SourceFileReference Id="efd96d5372f740d694ce3ca498b3a4c1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Trigger Timer State.gvi" StoragePath="Configure\Get Trigger Timer State.gvi" />
+					<SourceFileReference Id="5d4b10fd770343279f2e8eeadc66f336" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Trigger Timer Overrun Status.gvi" StoragePath="Configure\Get Trigger Timer Overrun Status.gvi" />
+					<SourceFileReference Id="bb75ec8e0b7a409e9fe3cd96ff6cba64" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Trigger Timer Delay.gvi" StoragePath="Configure\Get Trigger Timer Delay.gvi" />
+					<SourceFileReference Id="526ec9ce259648399280fdde4c2f8bf7" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Trigger Timer Count.gvi" StoragePath="Configure\Get Trigger Timer Count.gvi" />
+					<SourceFileReference Id="15d02095333041e385b2b0db278bf2e4" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Trigger Model State.gvi" StoragePath="Configure\Get Trigger Model State.gvi" />
+					<SourceFileReference Id="94ecbbef4ba54e99bf81ae6627610f47" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Trigger Model LAN Overrun Status.gvi" StoragePath="Configure\Get Trigger Model LAN Overrun Status.gvi" />
+					<SourceFileReference Id="f04478ab3aef4373800fb68b1d764672" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Trigger Model LAN Output Protocol.gvi" StoragePath="Configure\Get Trigger Model LAN Output Protocol.gvi" />
+					<SourceFileReference Id="50cc284a184d41ee924c59a2896c83d3" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Trigger Model LAN Output Logic Mode.gvi" StoragePath="Configure\Get Trigger Model LAN Output Logic Mode.gvi" />
+					<SourceFileReference Id="e3c326cf73ce4bac86148456dc0eea3c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Trigger Model LAN Mode.gvi" StoragePath="Configure\Get Trigger Model LAN Mode.gvi" />
+					<SourceFileReference Id="45393d7efca94b90a323dc71b9975ae8" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Trigger Model LAN IP Address.gvi" StoragePath="Configure\Get Trigger Model LAN IP Address.gvi" />
+					<SourceFileReference Id="6397305ae89a46e5a7fa95fc3ff0fb1f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Trigger Model LAN Input Logic Mode.gvi" StoragePath="Configure\Get Trigger Model LAN Input Logic Mode.gvi" />
+					<SourceFileReference Id="f639d9a137474075b910e563be701b9e" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Trigger Model Digital Overrun Status.gvi" StoragePath="Configure\Get Trigger Model Digital Overrun Status.gvi" />
+					<SourceFileReference Id="6896d7d79d824b178da85aa397d54868" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Trigger Model Digital Output Pulse Width.gvi" StoragePath="Configure\Get Trigger Model Digital Output Pulse Width.gvi" />
+					<SourceFileReference Id="3e1a43cd8db94755b5f96aad1d28d3bd" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Trigger Model Digital Output Mode.gvi" StoragePath="Configure\Get Trigger Model Digital Output Mode.gvi" />
+					<SourceFileReference Id="8c1c546c88994f80803b218c6ec376b7" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Trigger Model Digital Input Mode.gvi" StoragePath="Configure\Get Trigger Model Digital Input Mode.gvi" />
+					<SourceFileReference Id="7b0f78c1cc0e40aa87edb5ce273b30f8" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Trigger Model Blender Overrun Status.gvi" StoragePath="Configure\Get Trigger Model Blender Overrun Status.gvi" />
+					<SourceFileReference Id="b9ea8a1cc008442f907984a3983e72b0" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Trigger Model Blender Mode.gvi" StoragePath="Configure\Get Trigger Model Blender Mode.gvi" />
+					<SourceFileReference Id="466998d6b5174c1bbb42bd6a22b38d55" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Time.gvi" StoragePath="Configure\Get Time.gvi" />
+					<SourceFileReference Id="a62468fd837f4441837d03c4a61a31fd" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get System Access Permission.gvi" StoragePath="Configure\Get System Access Permission.gvi" />
+					<SourceFileReference Id="b56425648e364217a441789d6c56a41f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Source User Delay.gvi" StoragePath="Configure\Get Source User Delay.gvi" />
+					<SourceFileReference Id="9b2f433ef9d54f608193f2b782cd554e" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Source Read Back State.gvi" StoragePath="Configure\Get Source Read Back State.gvi" />
+					<SourceFileReference Id="7b007a02a9ef4be2b281b39d71e33d9c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Source Range.gvi" StoragePath="Configure\Get Source Range.gvi" />
+					<SourceFileReference Id="305eabc32f3a41b3abeedb0de0d6c9f5" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Source List Points.gvi" StoragePath="Configure\Get Source List Points.gvi" />
+					<SourceFileReference Id="97e39946a460491f83ceb32d9deda3ba" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Source Limit.gvi" StoragePath="Configure\Get Source Limit.gvi" />
+					<SourceFileReference Id="5e25371002134b80a7a75cefbd6f4f1b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Source Level.gvi" StoragePath="Configure\Get Source Level.gvi" />
+					<SourceFileReference Id="2bb6631482724122a27dc607f39a5c23" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Source Function.gvi" StoragePath="Configure\Get Source Function.gvi" />
+					<SourceFileReference Id="f8d1e5ad969242b8b4b0bde85e493bcd" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Source Delay.gvi" StoragePath="Configure\Get Source Delay.gvi" />
+					<SourceFileReference Id="b3a1818a01cc4170999a12db03a3608d" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Source Configuration List Size.gvi" StoragePath="Configure\Get Source Configuration List Size.gvi" />
+					<SourceFileReference Id="b273b9b513f34349bfa03ba354dd1d02" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Source Configuration List Settings.gvi" StoragePath="Configure\Get Source Configuration List Settings.gvi" />
+					<SourceFileReference Id="28dc8c9c0c5641faa94d2ddd07eedf40" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Source Configuration List Catalog.gvi" StoragePath="Configure\Get Source Configuration List Catalog.gvi" />
+					<SourceFileReference Id="341729f2686f48169c379c82332dbb51" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Source Auto Range.gvi" StoragePath="Configure\Get Source Auto Range.gvi" />
+					<SourceFileReference Id="60aad636d4fb41e8bcb780e1bb03ef65" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Source Auto Delay State.gvi" StoragePath="Configure\Get Source Auto Delay State.gvi" />
+					<SourceFileReference Id="3f39f3faa5bc4974a9dc59a06eaa71b9" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Over Voltage Protection State.gvi" StoragePath="Configure\Get Over Voltage Protection State.gvi" />
+					<SourceFileReference Id="3fff0b1cc7a84bc9bd1f81bc4b48cd75" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Measurement Manual Range.gvi" StoragePath="Configure\Get Measurement Manual Range.gvi" />
+					<SourceFileReference Id="48ef62478a964944bd90fe5238984025" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Measurement Function.gvi" StoragePath="Configure\Get Measurement Function.gvi" />
+					<SourceFileReference Id="f590b63847df4e9587df9dce1b6c5c15" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Measurement Count.gvi" StoragePath="Configure\Get Measurement Count.gvi" />
+					<SourceFileReference Id="8d97700aab4943e5ae54f733e45dfd0f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Measurement Auto Range.gvi" StoragePath="Configure\Get Measurement Auto Range.gvi" />
+					<SourceFileReference Id="848c404fe57841ceb939a22bf74b5daf" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Measurement Auto Range Lower Limit.gvi" StoragePath="Configure\Get Measurement Auto Range Lower Limit.gvi" />
+					<SourceFileReference Id="78359be4e7cc4150b7676ecb39854e94" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Measure User Delay.gvi" StoragePath="Configure\Get Measure User Delay.gvi" />
+					<SourceFileReference Id="a41cd13232094f5b94609213e08381cf" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Measure Configuration List Size.gvi" StoragePath="Configure\Get Measure Configuration List Size.gvi" />
+					<SourceFileReference Id="578636804b274a43878b20619c86f526" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Measure Configuration List Settings.gvi" StoragePath="Configure\Get Measure Configuration List Settings.gvi" />
+					<SourceFileReference Id="caafdbe2c25940579832e57db7369599" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Measure Configuration List Catalog.gvi" StoragePath="Configure\Get Measure Configuration List Catalog.gvi" />
+					<SourceFileReference Id="60b9904437154fe6a9d4accc2da1e341" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Log State.gvi" StoragePath="Configure\Get Log State.gvi" />
+					<SourceFileReference Id="d8f7f646005d4009b432f94aa7bb239e" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Line Frequency.gvi" StoragePath="Configure\Get Line Frequency.gvi" />
+					<SourceFileReference Id="e65d79a07baf487ca5ff89dd83fcba0c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Limit Test Upper Limit.gvi" StoragePath="Configure\Get Limit Test Upper Limit.gvi" />
+					<SourceFileReference Id="13cae348041442549206638b0d5286ec" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Limit Test Lower Limit.gvi" StoragePath="Configure\Get Limit Test Lower Limit.gvi" />
+					<SourceFileReference Id="67c7a35045b44d188eb7bafcff138187" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Limit Test Enabled State.gvi" StoragePath="Configure\Get Limit Test Enabled State.gvi" />
+					<SourceFileReference Id="78419db67dfa49b09c763b7e7f5ce52a" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get LAN Connect State.gvi" StoragePath="Configure\Get LAN Connect State.gvi" />
+					<SourceFileReference Id="3bb9be297da1421fb09db3aa94c41de7" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Interlock Status.gvi" StoragePath="Configure\Get Interlock Status.gvi" />
+					<SourceFileReference Id="fff17a54910745f4bd36f2531dde0504" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get High Capacitance State.gvi" StoragePath="Configure\Get High Capacitance State.gvi" />
+					<SourceFileReference Id="870553e2742b4998b2b2fa64d0d0e910" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get GPIB Address.gvi" StoragePath="Configure\Get GPIB Address.gvi" />
+					<SourceFileReference Id="4ebece9ba433427fb1bddc2ae655e351" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Data Format.gvi" StoragePath="Configure\Get Data Format.gvi" />
+					<SourceFileReference Id="a363db02f1b74bcd84889b950ed28be2" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Conact Check State.gvi" StoragePath="Configure\Get Conact Check State.gvi" />
+					<SourceFileReference Id="2375616e095b4894a5aa5acb1e05d5dd" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Byte Order.gvi" StoragePath="Configure\Get Byte Order.gvi" />
+					<SourceFileReference Id="1b157926f4ad42c9b0d505ddbdb15f85" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Buffer Size.gvi" StoragePath="Configure\Get Buffer Size.gvi" />
+					<SourceFileReference Id="38e51099c4dd42a4a82c563198619a27" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Buffer Filling Mode.gvi" StoragePath="Configure\Get Buffer Filling Mode.gvi" />
+					<SourceFileReference Id="ac3a8acfb1544331ac3d7d18c0baf203" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Enable Source Read Back.gvi" StoragePath="Configure\Enable Source Read Back.gvi" />
+					<SourceFileReference Id="dad35e4919ad45b78820da06b2c6c32b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Enable Source Auto Range.gvi" StoragePath="Configure\Enable Source Auto Range.gvi" />
+					<SourceFileReference Id="8f5b780ed0574ed69ca317241f188fb4" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Enable Measurement Auto Range.gvi" StoragePath="Configure\Enable Measurement Auto Range.gvi" />
+					<SourceFileReference Id="6fdc1a0a0f884826a626add5e97f228b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Enable Math Operation.gvi" StoragePath="Configure\Enable Math Operation.gvi" />
+					<SourceFileReference Id="da52ab0c060f4b07837dee213f51f3c4" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Enable Logging.gvi" StoragePath="Configure\Enable Logging.gvi" />
+					<SourceFileReference Id="ed6c97b4a32d4d54a2b063c2fb4de34f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Enable Limit Test.gvi" StoragePath="Configure\Enable Limit Test.gvi" />
+					<SourceFileReference Id="5469c0963e4c508e30ecac95b4ccf8" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Enable LAN Connect State.gvi" StoragePath="Configure\Enable LAN Connect State.gvi" />
+					<SourceFileReference Id="eb3d20344b9d44eb8901b597b6356a33" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Enable High Capacitance.gvi" StoragePath="Configure\Enable High Capacitance.gvi" />
+					<SourceFileReference Id="adbd43b3d43247fba61f9c06df123d38" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Digitizer Voltage Units.gvi" StoragePath="Configure\Digitizer Voltage Units.gvi" />
+					<SourceFileReference Id="f0666e34eb0e444fa5d888530db25d17" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Digitizer Sample Rate.gvi" StoragePath="Configure\Digitizer Sample Rate.gvi" />
+					<SourceFileReference Id="9ddc99a0bd664b269c58b366d0a54432" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Digitizer Current Units.gvi" StoragePath="Configure\Digitizer Current Units.gvi" />
+					<SourceFileReference Id="8517446ef32b4a12b1228c055185b29c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Digitizer Aperture.gvi" StoragePath="Configure\Digitizer Aperture.gvi" />
+					<SourceFileReference Id="45d9d2943454d14ab5ab62501e7005f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Delete User Buffer.gvi" StoragePath="Configure\Delete User Buffer.gvi" />
+					<SourceFileReference Id="939c677a270d4658b6cfe01b34483504" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Delete Configuration List.gvi" StoragePath="Configure\Delete Configuration List.gvi" />
+					<SourceFileReference Id="a7a707b1214b49959300d91ea25d049b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Create User Buffer.gvi" StoragePath="Configure\Create User Buffer.gvi" />
+					<SourceFileReference Id="3ad123b7138449a8a3e7444b70bfd9b6" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Create Configuration List.gvi" StoragePath="Configure\Create Configuration List.gvi" />
+					<SourceFileReference Id="a697bae542824c4fa6f9e46d1ae02ed5" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Unit of Voltage.gvi" StoragePath="Configure\Configure Unit of Voltage.gvi" />
+					<SourceFileReference Id="3caeedf06ac4746b575b6e650cc061a" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Unit of Current.gvi" StoragePath="Configure\Configure Unit of Current.gvi" />
+					<SourceFileReference Id="2696bd4ef27c4ac7b49415793427eea9" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Trigger Model.gvi" StoragePath="Configure\Configure Trigger Model.gvi" />
+					<SourceFileReference Id="e826338f77894693bdbeb16c74cb64d2" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Trigger Model Source Output Block.gvi" StoragePath="Configure\Configure Trigger Model Source Output Block.gvi" />
+					<SourceFileReference Id="f6088f7870634dcd9ee9ed23b22ed3ca" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Trigger Model Recall Configuration List Block.gvi" StoragePath="Configure\Configure Trigger Model Recall Configuration List Block.gvi" />
+					<SourceFileReference Id="ee4f1ab0dc04372a588f65c26af0883" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Trigger Model Once Excluded Block.gvi" StoragePath="Configure\Configure Trigger Model Once Excluded Block.gvi" />
+					<SourceFileReference Id="51e71c91f5a0437cbbc0593b3fcf9e30" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Trigger Model Once Block.gvi" StoragePath="Configure\Configure Trigger Model Once Block.gvi" />
+					<SourceFileReference Id="c92bb26a2e514924b9cc9f336799d5d7" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Trigger Model Measure Block.gvi" StoragePath="Configure\Configure Trigger Model Measure Block.gvi" />
+					<SourceFileReference Id="5dc7092cc6ad4d9bb044254ba5c2f907" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Trigger Model LAN Trigger Mode.gvi" StoragePath="Configure\Configure Trigger Model LAN Trigger Mode.gvi" />
+					<SourceFileReference Id="df67a5fcf0254dfaa8f1ce16bccd996d" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Trigger Model LAN Output Protocol.gvi" StoragePath="Configure\Configure Trigger Model LAN Output Protocol.gvi" />
+					<SourceFileReference Id="1426a5671084478b25d1e7fdc3babae" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Trigger Model LAN Output Logic Mode.gvi" StoragePath="Configure\Configure Trigger Model LAN Output Logic Mode.gvi" />
+					<SourceFileReference Id="1b65011abea64aec933e4085fc555006" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Trigger Model LAN IP Address.gvi" StoragePath="Configure\Configure Trigger Model LAN IP Address.gvi" />
+					<SourceFileReference Id="e710c8af6dfe4e998291f84181add383" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Trigger Model Digital Output Pulse Width.gvi" StoragePath="Configure\Configure Trigger Model Digital Output Pulse Width.gvi" />
+					<SourceFileReference Id="fb7a898e3a974853a56407f1037052ca" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Trigger Model Digital Output Mode.gvi" StoragePath="Configure\Configure Trigger Model Digital Output Mode.gvi" />
+					<SourceFileReference Id="f6cfda59de4f46ec964520638887365d" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Trigger Model Digital Input Mode.gvi" StoragePath="Configure\Configure Trigger Model Digital Input Mode.gvi" />
+					<SourceFileReference Id="360f9ee7661b4ccdbe5058bf3bbc542e" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Trigger Model Delta Block.gvi" StoragePath="Configure\Configure Trigger Model Delta Block.gvi" />
+					<SourceFileReference Id="2eae04e6b5fb4b0883de1fcd22750cf5" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Trigger Model Constant Delay Block.gvi" StoragePath="Configure\Configure Trigger Model Constant Delay Block.gvi" />
+					<SourceFileReference Id="22371be8751f43c0983bf31ed835713b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Trigger Model Configuration List Previous index Block.gvi" StoragePath="Configure\Configure Trigger Model Configuration List Previous index Block.gvi" />
+					<SourceFileReference Id="67b54c28b471431dbce137baa4ce8951" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Trigger Model Configuration List Next Index Block.gvi" StoragePath="Configure\Configure Trigger Model Configuration List Next Index Block.gvi" />
+					<SourceFileReference Id="cde2ef4005444148821cf082169451b1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Trigger Model Clear LAN.gvi" StoragePath="Configure\Configure Trigger Model Clear LAN.gvi" />
+					<SourceFileReference Id="1a5e7162adee4aaa95c516138d508c2c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Trigger Model Clear Digital Input Line.gvi" StoragePath="Configure\Configure Trigger Model Clear Digital Input Line.gvi" />
+					<SourceFileReference Id="7134ded1b94c458099f3690903bd8616" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Trigger Model Clear Blender.gvi" StoragePath="Configure\Configure Trigger Model Clear Blender.gvi" />
+					<SourceFileReference Id="98a08d6366de449784fc27b08448ca45" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Trigger Model Buffer Clear Block.gvi" StoragePath="Configure\Configure Trigger Model Buffer Clear Block.gvi" />
+					<SourceFileReference Id="daac8f7a92374c8a8a360bff558a5dc2" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Trigger Model Branch Counter Block.gvi" StoragePath="Configure\Configure Trigger Model Branch Counter Block.gvi" />
+					<SourceFileReference Id="1937b98a7242473f8db5f44e2242555b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Trigger Model Blender Mode.gvi" StoragePath="Configure\Configure Trigger Model Blender Mode.gvi" />
+					<SourceFileReference Id="ba4a1a5e53f34b79a54ef1f6b131845b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Trigger Model Always Block.gvi" StoragePath="Configure\Configure Trigger Model Always Block.gvi" />
+					<SourceFileReference Id="1280aef48c842a3a4eb3cc4c461fcac" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure System Access Permission.gvi" StoragePath="Configure\Configure System Access Permission.gvi" />
+					<SourceFileReference Id="bb7e8fb59d184b39b88b13afa3b93606" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Specific Limit Test.gvi" StoragePath="Configure\Configure Specific Limit Test.gvi" />
+					<SourceFileReference Id="ff836cf5f8034e0fbb3e013d0aca74be" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Source User Delay.gvi" StoragePath="Configure\Configure Source User Delay.gvi" />
+					<SourceFileReference Id="96407f58df2a4509ad7dd4503851efd8" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Source Range.gvi" StoragePath="Configure\Configure Source Range.gvi" />
+					<SourceFileReference Id="b1a1f570cf5c41a0bba7937934020c71" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Source Limit Level.gvi" StoragePath="Configure\Configure Source Limit Level.gvi" />
+					<SourceFileReference Id="fc750f0d58454f66b0a3e7978906f877" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Source Level.gvi" StoragePath="Configure\Configure Source Level.gvi" />
+					<SourceFileReference Id="8e0f75de9c9d4fce9fb20ad793b1e516" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Source Function.gvi" StoragePath="Configure\Configure Source Function.gvi" />
+					<SourceFileReference Id="bdc09dee3dc64d97b3287b58caed3f17" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Settling Delay.gvi" StoragePath="Configure\Configure Settling Delay.gvi" />
+					<SourceFileReference Id="f0e946e2b9274ab9a9517a0929614efe" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Relative Offset.gvi" StoragePath="Configure\Configure Relative Offset.gvi" />
+					<SourceFileReference Id="9f72795b690d49a4b382f6d0726c5bd2" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Reading Format of Display.gvi" StoragePath="Configure\Configure Reading Format of Display.gvi" />
+					<SourceFileReference Id="c3d759505090416083a6d7bcfccd9ae5" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Pulse Train.gvi" StoragePath="Configure\Configure Pulse Train.gvi" />
+					<SourceFileReference Id="f550bc94bd0497c9e1c86cd0f782252" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Pulse Sweep.gvi" StoragePath="Configure\Configure Pulse Sweep.gvi" />
+					<SourceFileReference Id="cafebfe14fb492680ceaba4150e7351" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Pulse List Sweep.gvi" StoragePath="Configure\Configure Pulse List Sweep.gvi" />
+					<SourceFileReference Id="63f95d899dbf4b76840790684954f7c2" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Pulse Limit.gvi" StoragePath="Configure\Configure Pulse Limit.gvi" />
+					<SourceFileReference Id="5710dfc0b32c4fef91aefb3aa41bd343" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Over Voltage Protection.gvi" StoragePath="Configure\Configure Over Voltage Protection.gvi" />
+					<SourceFileReference Id="6af914c70d3e4314b31889fa2cb8f707" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Output.gvi" StoragePath="Configure\Configure Output.gvi" />
+					<SourceFileReference Id="751544762d2f4b1f865d60e07ee823bc" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Output Sweep.gvi" StoragePath="Configure\Configure Output Sweep.gvi" />
+					<SourceFileReference Id="2670f38b53334172866ee28a6776ce06" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Output Off Behavior.gvi" StoragePath="Configure\Configure Output Off Behavior.gvi" />
+					<SourceFileReference Id="7725d083316147edab6808e529155ee9" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Output List.gvi" StoragePath="Configure\Configure Output List.gvi" />
+					<SourceFileReference Id="2dcce89520094fce949ba80d73e743ad" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Offset Compensation.gvi" StoragePath="Configure\Configure Offset Compensation.gvi" />
+					<SourceFileReference Id="e32da63b22974924aa003b8458caa4eb" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Measurement Range.gvi" StoragePath="Configure\Configure Measurement Range.gvi" />
+					<SourceFileReference Id="371a47a882ad42088f98da84a90e1a29" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Measurement Manual Range.gvi" StoragePath="Configure\Configure Measurement Manual Range.gvi" />
+					<SourceFileReference Id="7d54db83d02d4706aa3a9aa60ff9ec0c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Measurement Function.gvi" StoragePath="Configure\Configure Measurement Function.gvi" />
+					<SourceFileReference Id="9f2495f6991c46cda140ca3ba33ef276" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Measurement Auto Range Upper Limit.gvi" StoragePath="Configure\Configure Measurement Auto Range Upper Limit.gvi" />
+					<SourceFileReference Id="c1200d0cbba4a0a9c34be0f9a8068c1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Measurement Auto Range Lower Limit.gvi" StoragePath="Configure\Configure Measurement Auto Range Lower Limit.gvi" />
+					<SourceFileReference Id="292e1d8aaa6a42ecba97d3fe6e3a7c54" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Measure User Delay.gvi" StoragePath="Configure\Configure Measure User Delay.gvi" />
+					<SourceFileReference Id="d9e049a2cd664bc991e4a33d6522bc40" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Math.gvi" StoragePath="Configure\Configure Math.gvi" />
+					<SourceFileReference Id="526df392d9d402daf058f31d4c96ccf" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Log Mode Sweep.gvi" StoragePath="Configure\Configure Log Mode Sweep.gvi" />
+					<SourceFileReference Id="92904f516c3449e58a878112c224b3dc" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure List Mode Sweep.gvi" StoragePath="Configure\Configure List Mode Sweep.gvi" />
+					<SourceFileReference Id="3bb832b13e7d489e8f3a32553bcb8640" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Linear Step Mode Sweep.gvi" StoragePath="Configure\Configure Linear Step Mode Sweep.gvi" />
+					<SourceFileReference Id="996693067aa54f518b113ee353e993ae" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Linear Mode Sweep.gvi" StoragePath="Configure\Configure Linear Mode Sweep.gvi" />
+					<SourceFileReference Id="320651fd05fc4ec7a591e1e46ed605b9" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Limit Test Upper Limit.gvi" StoragePath="Configure\Configure Limit Test Upper Limit.gvi" />
+					<SourceFileReference Id="99cb59fa2b6d4018bc2b8432493affd6" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Limit Test Lower Limit.gvi" StoragePath="Configure\Configure Limit Test Lower Limit.gvi" />
+					<SourceFileReference Id="f17b5dfdb4694b9d9f675764266a85bf" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Limit Test Clear.gvi" StoragePath="Configure\Configure Limit Test Clear.gvi" />
+					<SourceFileReference Id="81fbb3cdd4284ad48418c2779cacaa77" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Limit Test Auto Clear.gvi" StoragePath="Configure\Configure Limit Test Auto Clear.gvi" />
+					<SourceFileReference Id="bbd9cd8025bf4256abd330c487de4b83" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Integration Filter.gvi" StoragePath="Configure\Configure Integration Filter.gvi" />
+					<SourceFileReference Id="711056e2e45c4e2fb198e9abda18529a" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Filter.gvi" StoragePath="Configure\Configure Filter.gvi" />
+					<SourceFileReference Id="cfa8c161898d40ceb16f1ce7604d224a" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Digits for Display.gvi" StoragePath="Configure\Configure Digits for Display.gvi" />
+					<SourceFileReference Id="2458532e2d3740ffba0cfb1691c69586" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Data Format.gvi" StoragePath="Configure\Configure Data Format.gvi" />
+					<SourceFileReference Id="e79710cf9e724755bcb7132dd4742b00" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Contact Check.gvi" StoragePath="Configure\Configure Contact Check.gvi" />
+					<SourceFileReference Id="1c09cdafa76246b7846c959b6d654e17" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Byte Order.gvi" StoragePath="Configure\Configure Byte Order.gvi" />
+					<SourceFileReference Id="3724b26541814da5b22d54df6cb9df28" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Brightness of Display.gvi" StoragePath="Configure\Configure Brightness of Display.gvi" />
+					<SourceFileReference Id="a0531f7b78e84241a3b0d2c3a7567b29" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Autozero.gvi" StoragePath="Configure\Configure Autozero.gvi" />
+					<SourceFileReference Id="9d856c6af3a54eb587d07f7ca2850129" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Configure Autozero Once.gvi" StoragePath="Configure\Configure Autozero Once.gvi" />
+					<SourceFileReference Id="d9f66f6580bf47d9b9569821b3caa251" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Clear Trigger timer.gvi" StoragePath="Configure\Clear Trigger timer.gvi" />
+					<SourceFileReference Id="86b335ed8dc843d3b8ee64bb3dfe33b6" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Clear Buffer.gvi" StoragePath="Configure\Clear Buffer.gvi" />
+					<SourceFileReference Id="aacba00b1bd9449db8cc4fcab0d73c72" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Clear Buffer Statistics.gvi" StoragePath="Configure\Clear Buffer Statistics.gvi" />
+					<SourceFileReference Id="8a68a6385a874709af27ae6b72aa06c7" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Append Buffer to File in the USB.gvi" StoragePath="Configure\Append Buffer to File in the USB.gvi" />
+				</NameScopingEnvoy>
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="fd8554fbf5fb46699929adec7561861a" Name="Miscelaneous">
+					<SourceFileReference Id="8554073bd1ce492bbaf0b4f552bb61ba" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Close.gvi" StoragePath="Miscelaneous\Close.gvi" />
+					<SourceFileReference Id="7a4f7380a4294267b355e67f630537a1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initialize.gvi" StoragePath="Miscelaneous\Initialize.gvi" />
+					<SourceFileReference Id="3f790c054736498cb7fdcc789fe8bc0c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Default Instrument Setup.gvi" StoragePath="Miscelaneous\Default Instrument Setup.gvi" />
+				</NameScopingEnvoy>
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="1a805162dcca41519ba0c294594acd7a" Name="Utility">
+					<SourceFileReference Id="4b85a56561bb45d38d104af80f488d50" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Set Display Screen.gvi" StoragePath="Utility\Set Display Screen.gvi" />
+					<SourceFileReference Id="7c57ce992185488898d41d34999e3559" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Self-Test.gvi" StoragePath="Utility\Self-Test.gvi" />
+					<SourceFileReference Id="9ef1bbf5a28b4f108b6a36743c1c3ca5" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Selected Range Query.gvi" StoragePath="Utility\Selected Range Query.gvi" />
+					<SourceFileReference Id="324a528fc8a348b3b6260ac7e59b3e75" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Select Active Terminals.gvi" StoragePath="Utility\Select Active Terminals.gvi" />
+					<SourceFileReference Id="e7e604420ea247a09d08432357c5559d" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Revision Query.gvi" StoragePath="Utility\Revision Query.gvi" />
+					<SourceFileReference Id="8f4f96cca40c41388b7083d0bc3bd8a3" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Reset.gvi" StoragePath="Utility\Reset.gvi" />
+					<SourceFileReference Id="e8e5ea63644d4d5487d6b5521477d4f6" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Recall Configuration List.gvi" StoragePath="Utility\Recall Configuration List.gvi" />
+					<SourceFileReference Id="1ad43b3adb494c2e82c464584465adb3" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Read Questionable Event Register.gvi" StoragePath="Utility\Read Questionable Event Register.gvi" />
+					<SourceFileReference Id="3e9b574758bb47ac9d6868a2074b9919" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Read Questionable Event Register Status.gvi" StoragePath="Utility\Read Questionable Event Register Status.gvi" />
+					<SourceFileReference Id="4b443d9be364c2dacd36d240941ff0f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Read Questionable Condition Register.gvi" StoragePath="Utility\Read Questionable Condition Register.gvi" />
+					<SourceFileReference Id="aa7791b4da814ebebe28ea72660e837f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Read Operation Event Register.gvi" StoragePath="Utility\Read Operation Event Register.gvi" />
+					<SourceFileReference Id="f68cf508f13943228214e09f20529730" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Read Operation Event Register Status.gvi" StoragePath="Utility\Read Operation Event Register Status.gvi" />
+					<SourceFileReference Id="7ccb39ac67c748dd8cf0ba76fd7fb28d" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Read Operation Condition Register.gvi" StoragePath="Utility\Read Operation Condition Register.gvi" />
+					<SourceFileReference Id="2e9c596f0e540aab76340be45fb1d59" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Preset Status.gvi" StoragePath="Utility\Preset Status.gvi" />
+					<SourceFileReference Id="c91e03d24dd4216ba0a37c420675191" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Map Event Id to Bit number in Questionable Event Register.gvi" StoragePath="Utility\Map Event Id to Bit number in Questionable Event Register.gvi" />
+					<SourceFileReference Id="5b0fd496a1374995859005e31e4ac865" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Map Event Id to Bit number in Operation Event Register.gvi" StoragePath="Utility\Map Event Id to Bit number in Operation Event Register.gvi" />
+					<SourceFileReference Id="d6119e1b9bf545878c1389904685beb2" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Trigger Block List.gvi" StoragePath="Utility\Get Trigger Block List.gvi" />
+					<SourceFileReference Id="4e17e4b1d4bb453f8d1a7614e53f0130" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Min-Max Ranges.gvi" StoragePath="Utility\Get Min-Max Ranges.gvi" />
+					<SourceFileReference Id="417b2ac2a6de46ddbccca00d81a30326" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Event Id Mapped to Bit Number in Questionable Event Register.gvi" StoragePath="Utility\Get Event Id Mapped to Bit Number in Questionable Event Register.gvi" />
+					<SourceFileReference Id="b5632e8fbcba4666b791a21a06804656" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Event Id Mapped to Bit Number in Operation Event Register.gvi" StoragePath="Utility\Get Event Id Mapped to Bit Number in Operation Event Register.gvi" />
+					<SourceFileReference Id="b3e49b261374ad5bfa475d73cc55817" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Active Terminals.gvi" StoragePath="Utility\Get Active Terminals.gvi" />
+					<SourceFileReference Id="abae5744d7924761bd45c4a48e98dcf7" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Error Query.gvi" StoragePath="Utility\Error Query.gvi" />
+					<SourceFileReference Id="4fad8ec816914d9d889253f87755874b" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Enable Questionable Event Register.gvi" StoragePath="Utility\Enable Questionable Event Register.gvi" />
+					<SourceFileReference Id="6e1f830e35684f33b30dbfcc920b1e5d" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Enable Operation Event Register.gvi" StoragePath="Utility\Enable Operation Event Register.gvi" />
+					<SourceFileReference Id="29e4fbb1a623480ebc95e2f601ed51a2" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Emit Beep.gvi" StoragePath="Utility\Emit Beep.gvi" />
+					<SourceFileReference Id="48c43bfbb238451a906160f74f0c20e0" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Display Message.gvi" StoragePath="Utility\Display Message.gvi" />
+					<SourceFileReference Id="35f71165e8943a58d6f7b6dbb0f6848" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Create Math Operation.gvi" StoragePath="Utility\Create Math Operation.gvi" />
+					<SourceFileReference Id="4d72b29a9dbc4fd69bc9c091b1fb881e" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Clear System Event Log.gvi" StoragePath="Utility\Clear System Event Log.gvi" />
+					<SourceFileReference Id="553cfc113caa4c00a1590ee1ae55ae8a" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Clear Display.gvi" StoragePath="Utility\Clear Display.gvi" />
+					<SourceFileReference Id="641e60b0171b4074986a051445a86125" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calibration Verify Date.gvi" StoragePath="Utility\Calibration Verify Date.gvi" />
+					<SourceFileReference Id="fdc2f88612744530b5e89e34f925332c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calibration Verify Date Query.gvi" StoragePath="Utility\Calibration Verify Date Query.gvi" />
+					<SourceFileReference Id="4db5ac4c63dd4ea38f560e5be56ccbe7" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calibration Unlock.gvi" StoragePath="Utility\Calibration Unlock.gvi" />
+					<SourceFileReference Id="a1328e311a9f4407b488009b2071cec6" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calibration Save.gvi" StoragePath="Utility\Calibration Save.gvi" />
+					<SourceFileReference Id="98cddbe254a472b85a4890623597365" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calibration Password.gvi" StoragePath="Utility\Calibration Password.gvi" />
+					<SourceFileReference Id="7538b32f5e1d43578cab9b95d013a4d0" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calibration Lock.gvi" StoragePath="Utility\Calibration Lock.gvi" />
+					<SourceFileReference Id="b1f859ea209241068716a1ad5a32bc18" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calibration Adjust Date.gvi" StoragePath="Utility\Calibration Adjust Date.gvi" />
+					<SourceFileReference Id="65f3c997d3e74d65b3514cea44f6f1cd" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calibration Adjust Date Query.gvi" StoragePath="Utility\Calibration Adjust Date Query.gvi" />
+					<SourceFileReference Id="45533492a87c498ea1bbf660b81119c0" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calibration Adjust Count Query.gvi" StoragePath="Utility\Calibration Adjust Count Query.gvi" />
+					<SourceFileReference Id="7ab062dea8464211b50b716765173a82" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calibrate Adjust Source.gvi" StoragePath="Utility\Calibrate Adjust Source.gvi" />
+					<SourceFileReference Id="a7e02c1bd82143bdb982d11cd1449253" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calibrate Adjust Source Data Query.gvi" StoragePath="Utility\Calibrate Adjust Source Data Query.gvi" />
+					<SourceFileReference Id="9a8578ff707944a18bae7d523f0e62ac" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calibrate Adjust Sense.gvi" StoragePath="Utility\Calibrate Adjust Sense.gvi" />
+					<SourceFileReference Id="9e0e5ce58c674f3488d7be41686cc241" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calibrate Adjust Sense Data Query.gvi" StoragePath="Utility\Calibrate Adjust Sense Data Query.gvi" />
+				</NameScopingEnvoy>
+				<SourceFileReference Bindings="NativeTarget" Id="5fbf13bb5ff04deb98c2e31e73217bfb" ModelDefinitionType="NationalInstruments.SourceModel.PaletteDefinition" Name="NXG_Keithley_SMU_2450_2460_2461.gpal" OverridingModelDefinitionType="NationalInstruments.SourceModel.PaletteDocument" StoragePath="NXG_Keithley_SMU_2450_2460_2461.gpal" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="d5365b72026478fb77bf0e90f64eaa8" Name="NXG_Keithley_SMU_2450_2460_2461.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="915cd5bff01942ab90ce616e142f265e" Id="44f65b741fad4b97886b7975684d4f5f" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>
