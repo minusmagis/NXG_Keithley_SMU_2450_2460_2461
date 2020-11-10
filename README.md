@@ -4,7 +4,7 @@ This is the unofficial LabView NXG 5.0 library to control the Keithley SMU 2450 
 
 To use it, one just needs to execute the Installer.exe inside the "Installer Files" folder and restart LabView NXG. The library will be on the "AddOns" tab. From there one can use the examples to see how it works.
 
-NIVISA drivers are required for it to work. They can be installed within the NI Package Manager.
+NI-VISA drivers are required for it to work. They can be installed within the NI Package Manager.
 
 I also include the source files for developers to do whatever they please.
 
