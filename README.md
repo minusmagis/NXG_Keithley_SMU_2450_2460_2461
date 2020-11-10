@@ -10,6 +10,8 @@ I also include the source files for developers to do whatever they please.
 
 Cheers :)
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Disclaimer:
 
 The Software and code samples available on this website are provided "as is" without warranty of any kind, either express or implied. Use at your own risk.
