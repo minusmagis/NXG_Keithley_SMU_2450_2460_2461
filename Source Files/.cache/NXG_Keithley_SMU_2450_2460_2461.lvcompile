@@ -1,76 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <JobList>
+  <Job OutputType="G Library">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>Source</ComponentSubtypeIdentifier>
+      <BuildId>44f87f3d-867f-4bed-858f-dd83fb88c031</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>Source</ComponentSubtypeIdentifier>
+      <BuildId>44f87f3d-867f-4bed-858f-dd83fb88c031</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\NXG_Keithley_SMU_2450_2460_2461_This Computer\NXG_Keithley_SMU_2450_2460_2461.gll\NXG_Keithley_SMU_2450_2460_2461.gll</OutputPath>
+    <BuildName>NXG_Keithley_SMU_2450_2460_2461</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:07</LastTotalTime>
+    <StartTime>2021-02-11T11:58:27.6469912Z</StartTime>
+    <HasChild>True</HasChild>
+    <IsStale>False</IsStale>
+    <QualifiedName>::DevSystem::Interactive::NXG_Keithley_SMU_2450_2460_2461.gcomp</QualifiedName>
+    <HintEnvoy>::DevSystem::Interactive::NXG_Keithley_SMU_2450_2460_2461.gcomp</HintEnvoy>
+  </Job>
   <Job OutputType="Distribution:NiPackageInstaller">
     <CurrentBuildId>
       <ComponentSubtypeIdentifier>Distribution:NiPackageInstaller</ComponentSubtypeIdentifier>
-      <BuildId>e3fab920-7620-4caf-8d44-d0079cad63b8</BuildId>
+      <BuildId>09793fdb-fc0d-4207-a21d-ccbc7d174e37</BuildId>
     </CurrentBuildId>
     <RootBuildId>
       <ComponentSubtypeIdentifier>Distribution:NiPackageInstaller</ComponentSubtypeIdentifier>
-      <BuildId>e3fab920-7620-4caf-8d44-d0079cad63b8</BuildId>
+      <BuildId>09793fdb-fc0d-4207-a21d-ccbc7d174e37</BuildId>
     </RootBuildId>
     <OutputPath>Builds\NXG_Keithley_SMU_2450_2460_2461</OutputPath>
     <BuildName>NXG_Keithley_SMU_2450_2460_2461</BuildName>
     <State>Success</State>
     <LastTotalTime>00:00:20</LastTotalTime>
-    <StartTime>2020-11-10T17:37:40.7635620Z</StartTime>
-    <HasChild>False</HasChild>
-    <IsStale>True</IsStale>
-    <QualifiedName></QualifiedName>
-    <HintEnvoy></HintEnvoy>
-  </Job>
-  <Job OutputType="Distribution:NiPackageInstaller">
-    <CurrentBuildId>
-      <ComponentSubtypeIdentifier>Distribution:NiPackageInstaller</ComponentSubtypeIdentifier>
-      <BuildId>1388e2de-8bde-4388-8229-f55830dc856d</BuildId>
-    </CurrentBuildId>
-    <RootBuildId>
-      <ComponentSubtypeIdentifier>Distribution:NiPackageInstaller</ComponentSubtypeIdentifier>
-      <BuildId>1388e2de-8bde-4388-8229-f55830dc856d</BuildId>
-    </RootBuildId>
-    <OutputPath>Builds\Keithley 2450 2460 2461</OutputPath>
-    <BuildName>Keithley 2450 2460 2461</BuildName>
-    <State>Failed</State>
-    <LastTotalTime>00:00:19</LastTotalTime>
-    <StartTime>2020-11-10T17:55:52.3040017Z</StartTime>
-    <HasChild>False</HasChild>
-    <IsStale>True</IsStale>
-    <QualifiedName></QualifiedName>
-    <HintEnvoy></HintEnvoy>
-  </Job>
-  <Job OutputType="Distribution:NiPackageInstaller">
-    <CurrentBuildId>
-      <ComponentSubtypeIdentifier>Distribution:NiPackageInstaller</ComponentSubtypeIdentifier>
-      <BuildId>383e259a-cefe-463f-ae46-140e590ab4f9</BuildId>
-    </CurrentBuildId>
-    <RootBuildId>
-      <ComponentSubtypeIdentifier>Distribution:NiPackageInstaller</ComponentSubtypeIdentifier>
-      <BuildId>383e259a-cefe-463f-ae46-140e590ab4f9</BuildId>
-    </RootBuildId>
-    <OutputPath>Builds\Keithley 2450 2460 2461</OutputPath>
-    <BuildName>Keithley 2450 2460 2461</BuildName>
-    <State>Success</State>
-    <LastTotalTime>00:00:16</LastTotalTime>
-    <StartTime>2020-11-10T17:57:00.2949671Z</StartTime>
-    <HasChild>False</HasChild>
-    <IsStale>False</IsStale>
-    <QualifiedName>::NullTarget::Keithley 2450 2460 2461.lvdist</QualifiedName>
-    <HintEnvoy>::NullTarget::Keithley 2450 2460 2461.lvdist</HintEnvoy>
-  </Job>
-  <Job OutputType="Distribution:NiPackageInstaller">
-    <CurrentBuildId>
-      <ComponentSubtypeIdentifier>Distribution:NiPackageInstaller</ComponentSubtypeIdentifier>
-      <BuildId>1963054f-46e6-4a61-b49a-af127464cb6a</BuildId>
-    </CurrentBuildId>
-    <RootBuildId>
-      <ComponentSubtypeIdentifier>Distribution:NiPackageInstaller</ComponentSubtypeIdentifier>
-      <BuildId>1963054f-46e6-4a61-b49a-af127464cb6a</BuildId>
-    </RootBuildId>
-    <OutputPath>Builds\NXG_Keithley_SMU_2450_2460_2461</OutputPath>
-    <BuildName>NXG_Keithley_SMU_2450_2460_2461</BuildName>
-    <State>Success</State>
-    <LastTotalTime>00:00:22</LastTotalTime>
-    <StartTime>2020-11-10T18:04:23.0501590Z</StartTime>
+    <StartTime>2021-02-11T11:59:07.6610793Z</StartTime>
     <HasChild>False</HasChild>
     <IsStale>False</IsStale>
     <QualifiedName>::NullTarget::NXG_Keithley_SMU_2450_2460_2461.lvdist</QualifiedName>

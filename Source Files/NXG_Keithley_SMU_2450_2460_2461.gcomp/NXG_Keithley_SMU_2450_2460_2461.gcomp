@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="32071CC102A283EF228588F79335B5902B18BC63A2468ACAB0EC07B08581C30595CADFB16692ECD361606C5FA5B41E5A28AF8B36B1E02E11C6BB1BD7D3C71DBD" Timestamp="1D6B78790C468DA" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="2C60D5696EB060F0717140C459A646C36ED13167EFB26ACC0FECF716083734C59F96563C2D45F6BB88777827C4B13D52C768CDD13D7BA8FC9B57EF92C82B23FE" Timestamp="1D7006D4C6CDFB2" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
 	</SourceModelFeatureSet>
-	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="160068183d0a4e9798705eae3047f6f8" RootNamespaceId="a19794d702fe46498d914db5edd5bcdc" xmlns="http://www.ni.com/GComponent.xsd">
+	<ComponentDefinition AutoIncrementOnBuild="True" Company="ICMAB-CSIC" DefaultConfigurationName="Configuration1" Description="This is the unofficial LabView NXG 5.0 library to control the Keithley SMU 2450 2460 2461, adapted and developed from an existing LabView 2015 version by Martí Gibert Roca." Id="160068183d0a4e9798705eae3047f6f8" Product="NXG Keithley SMU 2450 2460 2461" RootNamespaceId="a19794d702fe46498d914db5edd5bcdc" UserVersion="1.0.0.5" xmlns="http://www.ni.com/GComponent.xsd">
 		<Icon Id="751a214ecc94cd184ef7c22be2045e1" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="3f851e1151c24037b25be189d84f2bf7" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="c3fea5c9f49147cf93b478336f0d156f" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
 			</IconPanel>
 		</Icon>
 		<CompilerSymbolTable Id="e76d1098c84d4fc2aff7f2c8b3a52826" xmlns="http://www.ni.com/PlatformFramework" />
-		<ComponentConfiguration AssociatedPalettes="1d8c728452754f8a82c5e7c4c592f420,5fbf13bb5ff04deb98c2e31e73217bfb" Id="915cd5bff01942ab90ce616e142f265e" Name="Configuration1">
+		<ComponentConfiguration AssociatedPalettes="5fbf13bb5ff04deb98c2e31e73217bfb" Id="915cd5bff01942ab90ce616e142f265e" Name="Configuration1">
 			<CompilerSymbolTable Id="108f758e9d884baa8e4b80133db9a8c8" xmlns="http://www.ni.com/PlatformFramework" />
 			<GLibraryProperties Id="8898bb9b2d1947b98d670e0d80ff75ad" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="344239e4ecf34a35b7e267ee9bdaf40c" Exported="True" Id="c0261304a97d4176b2c9fdd0504fc614" />
