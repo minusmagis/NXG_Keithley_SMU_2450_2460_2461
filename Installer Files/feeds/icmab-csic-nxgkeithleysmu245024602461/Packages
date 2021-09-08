@@ -5,9 +5,9 @@ Depends:
 Description: This is the unofficial LabView NXG library to control the Keithley SMU 2450 2460 2461, adapted and developed from LabView 2015 version by Martí Gibert Roca.
 DisplayName: NXG_Keithley_SMU_2450_2460_2461
 Essential: no
-Filename: ../../pool/icmab-csic-nxgkeithleysmu245024602461_1.0.0.4_windows_x64.nipkg
+Filename: ../../pool/icmab-csic-nxgkeithleysmu245024602461_1.0.0.5_windows_x64.nipkg
 Homepage: https://github.com/minusmagis/NXG_Keithley_SMU_2450_2460_2461
-MD5sum: b0e43b1fe6f72b9ff83906ddd336850d
+MD5sum: 7c0d5996998e21d44cb33a59ed1c5e76
 Maintainer: ICMAB-CSIC <mgibert2@icmab.es>
 Package: icmab-csic-nxgkeithleysmu245024602461
 Plugin: file
@@ -15,14 +15,14 @@ Priority: optional
 Provides: icmab-csic-nxg_keithley_smu_2450_2460_2461-nxg_keithley_smu_2450_2460_2461
 Recommends: ni-certificates,
 Section: Drivers
-Size: 3975892
+Size: 4130376
 StoreProduct: no
 Suggests: 
 UserVisible: yes
-Version: 1.0.0.4
+Version: 1.0.0.5
 
 Architecture: windows_all
-CompatibilityVersion: 190601
+CompatibilityVersion: 200601
 Conflicts: 1f2c1e66-64c0-4ce1-b96e-7bb6ec99fcb1 (<<1.99.0)
 Description: NI Certificates configures Microsoft Windows to always trust software from NI. When NI Certificates are installed, no Windows security popups appear for installers that have a valid National Instruments digital signature.
 Description-de: Mit NI-Zertifikaten wird das Betriebssystem Microsoft Windows so konfiguriert, dass es Software von NI immer vertraut. Bei der Installation von NI-Zertifikaten werden für Installationsprogramme, die über eine gültige digitale Signatur von National Instruments verfügen, keine Windows-Sicherheits-Popups angezeigt.
@@ -36,22 +36,22 @@ DisplayName-fr: Installeur de certificats NI
 DisplayName-ja: NI証明書インストーラ
 DisplayName-ko: NI 인증 설치 프로그램
 DisplayName-zh-CN: NI Certificates安装程序
-DisplayVersion: 2.0.3
+DisplayVersion: 21.0.0
 Eula: eula-ni-standard
-Filename: ../../pool/ni-certificates_2.0.3.49152-0+f0_windows_all.nipkg
-Homepage: http://www.ni.com
-MD5sum: f837aa04c9b1352026b2f49ae689e1ff
+Filename: ../../pool/ni-certificates_21.0.0.49152-0+f0_windows_all.nipkg
+Homepage: https://www.ni.com
+MD5sum: 8562a767e9b82b7c957bc7d6feacd392
 Maintainer: National Instruments <support@ni.com>
-OsSupport: WINDOWS_7_SP1_32BIT WINDOWS_7_SP1_64BIT WINDOWS_81_32BIT WINDOWS_81_64BIT WINDOWS_10_32BIT WINDOWS_10_64BIT WINDOWS_EMBEDDED_STANDARD_7_SP1 WINDOWS_SERVER_2008_R2_SP1_64BIT WINDOWS_SERVER_2012_R2_64BIT
+OsSupport: WINDOWS_7_SP1_32BIT WINDOWS_7_SP1_64BIT WINDOWS_81_32BIT WINDOWS_81_64BIT WINDOWS_10_32BIT WINDOWS_10_64BIT WINDOWS_EMBEDDED_STANDARD_7_SP1 WINDOWS_SERVER_2008_R2_SP1_64BIT WINDOWS_SERVER_2012_R2_64BIT WINDOWS_SERVER_2016_64BIT
 Package: ni-certificates
 Plugin: wininst
 Priority: essential
-Provides: 1f2c1e66-64c0-4ce1-b96e-7bb6ec99fcb1 (=2.03.49152)
+Provides: 1f2c1e66-64c0-4ce1-b96e-7bb6ec99fcb1 (=21.00.49152)
 Replaces: 1f2c1e66-64c0-4ce1-b96e-7bb6ec99fcb1 (<<1.99.0)
 Section: Utilities
-Size: 448736
+Size: 446810
 UserVisible: yes
-Version: 2.0.3.49152-0+f0
+Version: 21.0.0.49152-0+f0
 
 Architecture: windows_all
 CompatibilityVersion: 0

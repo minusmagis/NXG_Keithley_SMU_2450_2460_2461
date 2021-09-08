@@ -34,6 +34,25 @@
     <LastTotalTime>00:00:20</LastTotalTime>
     <StartTime>2021-02-11T11:59:07.6610793Z</StartTime>
     <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy>::NullTarget::NXG_Keithley_SMU_2450_2460_2461.lvdist</HintEnvoy>
+  </Job>
+  <Job OutputType="Distribution:NiPackageInstaller">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>Distribution:NiPackageInstaller</ComponentSubtypeIdentifier>
+      <BuildId>716b10db-32a0-4ca9-8a8a-c7c3228c8bc4</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>Distribution:NiPackageInstaller</ComponentSubtypeIdentifier>
+      <BuildId>716b10db-32a0-4ca9-8a8a-c7c3228c8bc4</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\NXG_Keithley_SMU_2450_2460_2461</OutputPath>
+    <BuildName>NXG_Keithley_SMU_2450_2460_2461</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:34</LastTotalTime>
+    <StartTime>2021-09-08T15:42:08.7359634Z</StartTime>
+    <HasChild>False</HasChild>
     <IsStale>False</IsStale>
     <QualifiedName>::NullTarget::NXG_Keithley_SMU_2450_2460_2461.lvdist</QualifiedName>
     <HintEnvoy>::NullTarget::NXG_Keithley_SMU_2450_2460_2461.lvdist</HintEnvoy>

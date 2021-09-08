@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="2C60D5696EB060F0717140C459A646C36ED13167EFB26ACC0FECF716083734C59F96563C2D45F6BB88777827C4B13D52C768CDD13D7BA8FC9B57EF92C82B23FE" Timestamp="1D7006D4C6CDFB2" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="2C6591DAF1CDFE2A81CC7E9DEE74A1441C20A1503E483388F2D468257D8BC7CCCD8489B83B4DE6107A62FE0FE21698625964B21FEAC25652BE0DA7EDF5050DDB" Timestamp="1D7A4C4A4DCCE98" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="SystemDesigner" Name="http://www.ni.com/SystemDesigner/EnvoyManagement" OldestCompatibleVersion="5.0.0.0" Version="5.0.0.49152" />
 		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
 	</SourceModelFeatureSet>
 	<ComponentDefinition AutoIncrementOnBuild="True" Company="ICMAB-CSIC" DefaultConfigurationName="Configuration1" Description="This is the unofficial LabView NXG 5.0 library to control the Keithley SMU 2450 2460 2461, adapted and developed from an existing LabView 2015 version by Martí Gibert Roca." Id="160068183d0a4e9798705eae3047f6f8" Product="NXG Keithley SMU 2450 2460 2461" RootNamespaceId="a19794d702fe46498d914db5edd5bcdc" UserVersion="1.0.0.5" xmlns="http://www.ni.com/GComponent.xsd">
@@ -251,6 +252,14 @@
 			<ComponentItemProperties AssociatedEnvoyId="cf51fdb9e17d47d28c2f955a2bf9b783" Exported="True" Id="f1b3b602846d4c6ba21b2d0f83fd4f5f" />
 			<ComponentItemProperties AssociatedEnvoyId="1e8a06bb224422999d15c972352f7f9" Exported="True" Id="6b0b68b1990c4526ad978a1de986fe4c" />
 			<ComponentItemProperties AssociatedEnvoyId="fff5bf3790524ea1a862891b3c0ef3fe" Exported="True" Id="9a4e8c3725934bc19c1dabf0e113d12f" />
+			<ComponentItemProperties AssociatedEnvoyId="b3f22149fe17466090150800a54e9c20" Exported="True" Id="e6a09ac431d47329168a14dfebd6745" />
+			<ComponentItemProperties AssociatedEnvoyId="2c08a2e1ea7f41fb8200674952ba9e1f" Exported="True" Id="48d9ba1cdd06423d90b13d92e8382a03" />
+			<ComponentItemProperties AssociatedEnvoyId="62964c6229c5483fb46fccb763116a35" Exported="True" Id="b25112e150a4cc2a8931e9f54f07f2d" />
+			<ComponentItemProperties AssociatedEnvoyId="f513e257f75d45e19f835b0e72308b41" Exported="True" Id="b0220585dac6402abb03fd9e607ca744" />
+			<ComponentItemProperties AssociatedEnvoyId="136e3dd06fc64cd281f797e2246497f4" Exported="True" Id="fea125ae4c434a0a8274a3412a2c87d6" />
+			<ComponentItemProperties AssociatedEnvoyId="ae4f9e2c6814138a3475fe839da8b60" Exported="True" Id="c0265c5b34c4d6fa948c9501770267f" />
+			<ComponentItemProperties AssociatedEnvoyId="2312938b3d0f4a599ac98d91ea269a50" Exported="True" Id="50ff04f52ffa403f9e2bfde59a051bc8" />
+			<ComponentItemProperties AssociatedEnvoyId="42a35d9999f841679721eb5229ae165c" Exported="True" Id="f558e995ccc943248eee36b8833e4ac6" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="e8050146ca604a8f8f7e774c768b2179" xmlns="http://www.ni.com/PlatformFramework">
@@ -266,6 +275,8 @@
 					<SourceFileReference Id="2cc1c612d1554f979125ac7e500f93be" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Keithley 2461 Digitized Sweep.gvi" StoragePath="Examples\Keithley 2461 Digitized Sweep.gvi" />
 					<SourceFileReference Id="245c2430be1b4a298ddf6902f4e7b3be" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Keithley 2461 Pulse Output List and Aquire.gvi" StoragePath="Examples\Keithley 2461 Pulse Output List and Aquire.gvi" />
 					<SourceFileReference Id="5d1e8214c1eb47e480d7c492857821ea" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="VI Tree.gvi" StoragePath="Examples\VI Tree.gvi" />
+					<SourceFileReference Id="2c08a2e1ea7f41fb8200674952ba9e1f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Keithley 2450 Fast Sweep.gvi" StoragePath="Examples\Keithley 2450 Fast Sweep.gvi" />
+					<SourceFileReference Id="f513e257f75d45e19f835b0e72308b41" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Keithley Send SCPI Command.gvi" StoragePath="Examples\Keithley Send SCPI Command.gvi" />
 				</NameScopingEnvoy>
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="148eb89a4a0a4b1ebfd5d08ad48bfe1d" Name="Action Status">
 					<SourceFileReference Id="2d937637546a4245902247378e2adca9" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Write to all Digital IO Pins.gvi" StoragePath="Action Status\Write to all Digital IO Pins.gvi" />
@@ -294,6 +305,7 @@
 					<SourceFileReference Id="369cac9c152c40f1a087de73306c7dfb" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Make Reading and Store in Buffer.gvi" StoragePath="Data\Make Reading and Store in Buffer.gvi" />
 					<SourceFileReference Id="aa8a7a8af1dd4f8aa468f85005b132d4" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Number of Readings in the Buffer.gvi" StoragePath="Data\Get Number of Readings in the Buffer.gvi" />
 					<SourceFileReference Id="39dff2fe8fa94013935e89cf7c688d9f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Fetch Read Buffer Statistics.gvi" StoragePath="Data\Fetch Read Buffer Statistics.gvi" />
+					<SourceFileReference Id="b3f22149fe17466090150800a54e9c20" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Single Measurement.gvi" StoragePath="Data\Single Measurement.gvi" />
 				</NameScopingEnvoy>
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="30834b6cc09042cc8ecb75467f47614d" Name="Configure">
 					<SourceFileReference Id="5325cd6507d456ca58aae20152cd0d4" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Store Configuration List.gvi" StoragePath="Configure\Store Configuration List.gvi" />
@@ -458,6 +470,10 @@
 					<SourceFileReference Id="86b335ed8dc843d3b8ee64bb3dfe33b6" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Clear Buffer.gvi" StoragePath="Configure\Clear Buffer.gvi" />
 					<SourceFileReference Id="aacba00b1bd9449db8cc4fcab0d73c72" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Clear Buffer Statistics.gvi" StoragePath="Configure\Clear Buffer Statistics.gvi" />
 					<SourceFileReference Id="8a68a6385a874709af27ae6b72aa06c7" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Append Buffer to File in the USB.gvi" StoragePath="Configure\Append Buffer to File in the USB.gvi" />
+					<SourceFileReference Id="62964c6229c5483fb46fccb763116a35" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Set Source Auto Delay State.gvi" StoragePath="Configure\Set Source Auto Delay State.gvi" />
+					<SourceFileReference Id="ae4f9e2c6814138a3475fe839da8b60" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Autozero State.gvi" StoragePath="Configure\Get Autozero State.gvi" />
+					<SourceFileReference Id="2312938b3d0f4a599ac98d91ea269a50" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get All Delay Info.gvi" StoragePath="Configure\Get All Delay Info.gvi" />
+					<SourceFileReference Id="42a35d9999f841679721eb5229ae165c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Turn off Delays and Autozero (High Speed).gvi" StoragePath="Configure\Turn off Delays and Autozero (High Speed).gvi" />
 				</NameScopingEnvoy>
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="fd8554fbf5fb46699929adec7561861a" Name="Miscelaneous">
 					<SourceFileReference Id="8554073bd1ce492bbaf0b4f552bb61ba" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Close.gvi" StoragePath="Miscelaneous\Close.gvi" />
@@ -509,6 +525,7 @@
 					<SourceFileReference Id="9e0e5ce58c674f3488d7be41686cc241" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Calibrate Adjust Sense Data Query.gvi" StoragePath="Utility\Calibrate Adjust Sense Data Query.gvi" />
 				</NameScopingEnvoy>
 				<SourceFileReference Bindings="NativeTarget" Id="5fbf13bb5ff04deb98c2e31e73217bfb" ModelDefinitionType="NationalInstruments.SourceModel.PaletteDefinition" Name="NXG_Keithley_SMU_2450_2460_2461.gpal" OverridingModelDefinitionType="NationalInstruments.SourceModel.PaletteDocument" StoragePath="NXG_Keithley_SMU_2450_2460_2461.gpal" />
+				<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="136e3dd06fc64cd281f797e2246497f4" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Test vi.gvi" StoragePath="Test vi.gvi" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="d5365b72026478fb77bf0e90f64eaa8" Name="NXG_Keithley_SMU_2450_2460_2461.gcomp" NameTracksFileName="True">

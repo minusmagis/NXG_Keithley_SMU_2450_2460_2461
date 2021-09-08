@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="3DC1362F80524CF747A00B903D2A3FE7A55BEFF6955415F74FD28B89575C1727DF5A68AB9849F89949B906713D5D8F367AB05F7BB555B660C6BDF7F1E03B88B0" Timestamp="1D7006D6FD2C3E5" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="00B6673224328E78F6DE151A8A80EF796E39DD2A00BBE4F117B6EB6DFBB87CE95A927C7C35A74491C25D0A2A8B1B686B3D97762627BB71236D6431E88ED86DB0" Timestamp="1D7A4C8E984EB4C" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
 	</SourceModelFeatureSet>
-	<DistributionDefinition Company="ICMAB-CSIC" Product="NXG_Keithley_SMU_2450_2460_2461" ShortDescription="This is the unofficial LabView NXG library to control the Keithley SMU 2450 2460 2461, adapted and developed from LabView 2015 version by Martí Gibert Roca." TargetedProduct="LabVIEW" Version="1.0.0.5" xmlns="http://www.ni.com/GComponent.xsd">
+	<DistributionDefinition Company="ICMAB-CSIC" Product="NXG_Keithley_SMU_2450_2460_2461" ShortDescription="This is the unofficial LabView NXG library to control the Keithley SMU 2450 2460 2461, adapted and developed from LabView 2015 version by Martí Gibert Roca." TargetedProduct="LabVIEW" Version="1.0.0.6" xmlns="http://www.ni.com/GComponent.xsd">
 		<DistributionDependencyContent DisplayName="ni-certificates" Id="bc6be93c637d481184eb4409548f3343" Included="False" Name="ni-certificates" RequirementType="Recommended" VersionRequirement="None" />
 		<DistributionOutput CachedDisplayName="Package Installer" Id="ead1add5bd946f781fe9511c6d1feb9" p3:CustomNipmPackageName="icmab-csic-nxgkeithleysmu245024602461" p3:DistributionCategory="Driver" p3:Homepage="https://github.com/minusmagis/NXG_Keithley_SMU_2450_2460_2461" p3:MaintainerEmail="mgibert2@icmab.es" p3:MaintainerName="ICMAB-CSIC" p3:PackageDisplayName="NXG_Keithley_SMU_2450_2460_2461" xmlns:p3="http://www.ni.com/GComponent.xsd" />
 		<DistributionBuildTarget Id="7125d06cd9af428abf1b0fcad8885df5" Target="::DevSystem" />

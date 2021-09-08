@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="37711F2A268CDC2DF54EC1C009A620966126C0001CC1254ECCB6A36071D516FAF1D09D033F9165030398731746169963E4421302830FB44B0A753857553A7EAC" Timestamp="1D6B7747FD984AE" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="8E4F972124C8609DB589D49261D36F9ED64E1BA2AEE35E2EED80D0D9816E3EC297EF16223FEC706291FB98E5BB14F1DC2D1552253D7F4A60EDD2EE32369BA968" Timestamp="1D7A48D0C3C99E9" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -36,74 +36,74 @@
 		<DiagramUnplacedItems Id="2774880cce36479db83ae26feef4d0ec" xmlns="http://www.ni.com/MocCommon" />
 		<FrontPanelUnplacedItems Id="b53266ec50a44dcf91432e3c23ca88ba" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
 		<BlockDiagram Id="79840e4d793b4371be51d0dab0109672">
-			<DataAccessor Bounds="1025 615 40 15" DataItem="cfff2d75ce7a47d88aa02ce30d3c1a32" Id="598011b460d743ccb5d1ec1a9f6c91d5" Label="148bbb9f727a48ef926f69c0ba198bd1" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="1220 455 40 15" DataItem="cfff2d75ce7a47d88aa02ce30d3c1a32" Id="598011b460d743ccb5d1ec1a9f6c91d5" Label="148bbb9f727a48ef926f69c0ba198bd1" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType=":UDR:TagRefnum|NI::VISA::Visa.udr::Instr" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="598011b460d743ccb5d1ec1a9f6c91d5" Bounds="906 615 114 14" Id="148bbb9f727a48ef926f69c0ba198bd1" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="598011b460d743ccb5d1ec1a9f6c91d5" Bounds="1101 455 114 14" Id="148bbb9f727a48ef926f69c0ba198bd1" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>VISA resource name</p.Text>
 			</NodeLabel>
-			<DataAccessor Bounds="1025 645 40 15" DataItem="52888973024a408cadef573e9cf06c74" Id="594e607a957d4447a7698468f0943187" Label="fb051de10704a5b8480331b84714806" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="1220 475 40 15" DataItem="52888973024a408cadef573e9cf06c74" Id="594e607a957d4447a7698468f0943187" Label="fb051de10704a5b8480331b84714806" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="594e607a957d4447a7698468f0943187" Bounds="920 645 100 14" Id="fb051de10704a5b8480331b84714806" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="594e607a957d4447a7698468f0943187" Bounds="1115 475 100 14" Id="fb051de10704a5b8480331b84714806" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>error in (no error)</p.Text>
 			</NodeLabel>
-			<DataAccessor Bounds="1565 645 40 15" DataItem="13dfa2877ce1465a84239b3b9956f626" Id="172c2ad373fa4601ae62e3d261935688" Label="8ef46ec3f23c44a1b11e8985594693e2" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="1445 510 40 15" DataItem="13dfa2877ce1465a84239b3b9956f626" Id="172c2ad373fa4601ae62e3d261935688" Label="8ef46ec3f23c44a1b11e8985594693e2" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="172c2ad373fa4601ae62e3d261935688" Bounds="1610 645 50 14" Id="8ef46ec3f23c44a1b11e8985594693e2" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="172c2ad373fa4601ae62e3d261935688" Bounds="1490 510 50 14" Id="8ef46ec3f23c44a1b11e8985594693e2" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>error out</p.Text>
 			</NodeLabel>
-			<DataAccessor Bounds="1565 595 40 15" DataItem="c5c0f59bb17c496d9a63e1ba307698f5" Id="444f36fde8164cc08f970e53c858683f" Label="a3b0f722b58f44cea911836d14d6ac9a" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="1445 480 40 15" DataItem="c5c0f59bb17c496d9a63e1ba307698f5" Id="444f36fde8164cc08f970e53c858683f" Label="a3b0f722b58f44cea911836d14d6ac9a" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType=":UDR:TagRefnum|NI::VISA::Visa.udr::Instr" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="444f36fde8164cc08f970e53c858683f" Bounds="1610 595 136 14" Id="a3b0f722b58f44cea911836d14d6ac9a" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="444f36fde8164cc08f970e53c858683f" Bounds="1490 480 136 14" Id="a3b0f722b58f44cea911836d14d6ac9a" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>VISA resource name out</p.Text>
 			</NodeLabel>
-			<DataAccessor Bounds="1055 530 40 15" DataItem="5fae5ac6b3c347149a55086f9367da90" Id="efa437483cc64573a2b923359cc30fef" Label="8bd6fb97716c458da50e959d4e575cb8" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="1055 565 40 15" DataItem="5fae5ac6b3c347149a55086f9367da90" Id="efa437483cc64573a2b923359cc30fef" Label="8bd6fb97716c458da50e959d4e575cb8" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="UInt16" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="efa437483cc64573a2b923359cc30fef" Bounds="847 530 203 14" Id="8bd6fb97716c458da50e959d4e575cb8" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="efa437483cc64573a2b923359cc30fef" Bounds="845 565 205 14" Id="8bd6fb97716c458da50e959d4e575cb8" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Configuration List Type (0: Measure)</p.Text>
 			</NodeLabel>
-			<Literal Bounds="1020 475 50 28" DataType="String" Id="38c217095b9d442f89cbdf056c38874a" Label="6f7329f4424348d1bafde5dc2199fab8" xmlns="http://www.ni.com/MocCommon">
+			<Literal Bounds="1045 535 50 28" DataType="String" Id="38c217095b9d442f89cbdf056c38874a" Label="6f7329f4424348d1bafde5dc2199fab8" xmlns="http://www.ni.com/MocCommon">
 				<p.Data>"SENS\nSOUR"</p.Data>
 				<StringBehavior TextDisplayMode="Default" />
 			</Literal>
-			<NodeLabel AttachedTo="38c217095b9d442f89cbdf056c38874a" Bounds="1020 458 47 14" Id="6f7329f4424348d1bafde5dc2199fab8" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="38c217095b9d442f89cbdf056c38874a" Bounds="1045 518 47 14" Id="6f7329f4424348d1bafde5dc2199fab8" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Function</p.Text>
 			</NodeLabel>
-			<DataAccessor Bounds="1055 560 40 15" DataItem="e246056cef04a8e8fe3c1db16ca504f" Id="95fa7ad18b804c488c4cdbed0f81b9eb" Label="7ab405c63f1e42c090d49d4422997ddf" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="1140 585 40 15" DataItem="e246056cef04a8e8fe3c1db16ca504f" Id="95fa7ad18b804c488c4cdbed0f81b9eb" Label="7ab405c63f1e42c090d49d4422997ddf" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="95fa7ad18b804c488c4cdbed0f81b9eb" Bounds="912 560 138 14" Id="7ab405c63f1e42c090d49d4422997ddf" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="95fa7ad18b804c488c4cdbed0f81b9eb" Bounds="997 585 138 14" Id="7ab405c63f1e42c090d49d4422997ddf" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>"Configuration List Name "</p.Text>
 			</NodeLabel>
-			<Literal Bounds="990 465 165 15" DataType="String" Id="33c1e3ea8151475f8f66b3bd9c8e5d18" Label="cc9ab9434e3145379cd94148681bdcbc" xmlns="http://www.ni.com/MocCommon">
+			<Literal Bounds="1015 495 165 15" DataType="String" Id="33c1e3ea8151475f8f66b3bd9c8e5d18" Label="cc9ab9434e3145379cd94148681bdcbc" xmlns="http://www.ni.com/MocCommon">
 				<p.Data>:%s:CONF:LIST:CRE "%s"</p.Data>
 				<StringBehavior TextDisplayMode="Default" />
 			</Literal>
-			<NodeLabel AttachedTo="33c1e3ea8151475f8f66b3bd9c8e5d18" Bounds="990 444 97 18" Id="cc9ab9434e3145379cd94148681bdcbc" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="33c1e3ea8151475f8f66b3bd9c8e5d18" Bounds="1015 474 97 18" Id="cc9ab9434e3145379cd94148681bdcbc" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>format string</p.Text>
 			</NodeLabel>
-			<PickLine Bounds="1115 500 40 40" Id="b2f3903927b84c0b8b75840f2e66e63b" />
-			<NodeLabel AttachedTo="2ea9f1a49a7a482386d64b62b567571c" Bounds="1345 578 65 14" Id="4ae194839691411abe737292a03fdee0" IsReadOnly="True" xmlns="http://www.ni.com/PlatformFramework">
+			<PickLine Bounds="1125 535 40 40" Id="b2f3903927b84c0b8b75840f2e66e63b" />
+			<NodeLabel AttachedTo="2ea9f1a49a7a482386d64b62b567571c" Bounds="1360 463 65 14" Id="4ae194839691411abe737292a03fdee0" IsReadOnly="True" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Error Query</p.Text>
 			</NodeLabel>
-			<FormatIntoString Bounds="1185 520 40 50" Id="c4cf66dfca04cfb8f026d1a7794031a" Terminals="formatString=c1551192c808496ca71dbc4377c3353a, outString=2f792f86f671403083c8e52343c594f9, c0t0v=60113c82d8b346a8a9e925dbea0a5f54, c1t0v=b416b4fc4ab646a6a5eac1f7e363433f" VerticalChunkCount="2" />
-			<Wire Id="b416b4fc4ab646a6a5eac1f7e363433f" Joints="N(95fa7ad18b804c488c4cdbed0f81b9eb:Value)|(1095,565) N(c4cf66dfca04cfb8f026d1a7794031a:c1t0v)|(1185,565)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="60113c82d8b346a8a9e925dbea0a5f54" Joints="N(b2f3903927b84c0b8b75840f2e66e63b:output string)|(1155,520) h(9) v(35) N(c4cf66dfca04cfb8f026d1a7794031a:c0t0v)|(1185,555)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="c1551192c808496ca71dbc4377c3353a" Joints="N(33c1e3ea8151475f8f66b3bd9c8e5d18:Out)|(1155,470) h(55) N(c4cf66dfca04cfb8f026d1a7794031a:formatString)|(1210,520)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="2f792f86f671403083c8e52343c594f9" Joints="N(c4cf66dfca04cfb8f026d1a7794031a:outString)|(1225,525) h(34) v(115) N(c074408e691a4b4b8b2d05790c995c97:L2)|(1265,640)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="3af107cfd97e49df8b21f501fc155d34" Joints="N(c074408e691a4b4b8b2d05790c995c97:R1)|(1315,630) N(2ea9f1a49a7a482386d64b62b567571c:L3)|(1345,630)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="e235b33b8d9410e9d64e58521db9a23" Joints="N(c074408e691a4b4b8b2d05790c995c97:R0)|(1315,620) h(24) v(-20) N(2ea9f1a49a7a482386d64b62b567571c:L0)|(1345,600)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="7c95a9cee5e94004a31d997d4aafc34a" Joints="N(efa437483cc64573a2b923359cc30fef:Value)|(1095,535) N(b2f3903927b84c0b8b75840f2e66e63b:line index)|(1115,535)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="279f1438c6604f3d8d67043a70f0a855" Joints="N(38c217095b9d442f89cbdf056c38874a:Out)|(1070,480) h(24) v(40) N(b2f3903927b84c0b8b75840f2e66e63b:multi-line string)|(1115,520)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="3cf9f1fa326d49abbe696637b59b7836" Joints="N(2ea9f1a49a7a482386d64b62b567571c:R0)|(1385,600) N(444f36fde8164cc08f970e53c858683f:Value)|(1568,600)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="e9f29d033202407da146652c7a9a2959" Joints="N(2ea9f1a49a7a482386d64b62b567571c:R3)|(1385,630) h(174) v(20) N(172c2ad373fa4601ae62e3d261935688:Value)|(1568,650)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="229e6345c9374919be82987c9f2c82be" Joints="N(594e607a957d4447a7698468f0943187:Value)|(1065,650) h(184) v(-20) N(c074408e691a4b4b8b2d05790c995c97:L1)|(1265,630)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="9725d2f3167a4673bd588f9bdcc97aa8" Joints="N(598011b460d743ccb5d1ec1a9f6c91d5:Value)|(1065,620) N(c074408e691a4b4b8b2d05790c995c97:L0)|(1265,620)" xmlns="http://www.ni.com/PlatformFramework" />
-			<MethodCall Bounds="1265 615 50 50" Id="c074408e691a4b4b8b2d05790c995c97" ResolveFailedHint="Write (Instr, String).gvi, Package: (NI-VISA API support for LabVIEW NXG 5.0, Version: 20.0.0)" Signature="@46a359390ef24d10bc24e9c0bc1e70b2" Target="NI::VISA::Write (Instr, String).gvi" xmlns="http://www.ni.com/MocCommon">
+			<FormatIntoString Bounds="1205 520 40 50" Id="c4cf66dfca04cfb8f026d1a7794031a" Terminals="formatString=c1551192c808496ca71dbc4377c3353a, outString=2f792f86f671403083c8e52343c594f9, c0t0v=60113c82d8b346a8a9e925dbea0a5f54, c1t0v=b416b4fc4ab646a6a5eac1f7e363433f" VerticalChunkCount="2" />
+			<Wire Id="b416b4fc4ab646a6a5eac1f7e363433f" Joints="N(95fa7ad18b804c488c4cdbed0f81b9eb:Value)|(1180,590) h(10) v(-25) N(c4cf66dfca04cfb8f026d1a7794031a:c1t0v)|(1205,565)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="60113c82d8b346a8a9e925dbea0a5f54" Joints="N(b2f3903927b84c0b8b75840f2e66e63b:output string)|(1165,555) N(c4cf66dfca04cfb8f026d1a7794031a:c0t0v)|(1205,555)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="c1551192c808496ca71dbc4377c3353a" Joints="N(33c1e3ea8151475f8f66b3bd9c8e5d18:Out)|(1180,500) h(50) N(c4cf66dfca04cfb8f026d1a7794031a:formatString)|(1230,520)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="2f792f86f671403083c8e52343c594f9" Joints="N(c4cf66dfca04cfb8f026d1a7794031a:outString)|(1245,525) N(c074408e691a4b4b8b2d05790c995c97:L2)|(1290,525)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="3af107cfd97e49df8b21f501fc155d34" Joints="N(c074408e691a4b4b8b2d05790c995c97:R1)|(1340,515) N(2ea9f1a49a7a482386d64b62b567571c:L3)|(1360,515)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="e235b33b8d9410e9d64e58521db9a23" Joints="N(c074408e691a4b4b8b2d05790c995c97:R0)|(1340,505) h(10) v(-20) N(2ea9f1a49a7a482386d64b62b567571c:L0)|(1360,485)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="7c95a9cee5e94004a31d997d4aafc34a" Joints="N(efa437483cc64573a2b923359cc30fef:Value)|(1095,570) N(b2f3903927b84c0b8b75840f2e66e63b:line index)|(1125,570)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="279f1438c6604f3d8d67043a70f0a855" Joints="N(38c217095b9d442f89cbdf056c38874a:Out)|(1095,540) h(10) v(15) N(b2f3903927b84c0b8b75840f2e66e63b:multi-line string)|(1125,555)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="3cf9f1fa326d49abbe696637b59b7836" Joints="N(2ea9f1a49a7a482386d64b62b567571c:R0)|(1400,485) N(444f36fde8164cc08f970e53c858683f:Value)|(1448,485)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="e9f29d033202407da146652c7a9a2959" Joints="N(2ea9f1a49a7a482386d64b62b567571c:R3)|(1400,515) N(172c2ad373fa4601ae62e3d261935688:Value)|(1448,515)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="229e6345c9374919be82987c9f2c82be" Joints="N(594e607a957d4447a7698468f0943187:Value)|(1260,480) h(10) v(35) N(c074408e691a4b4b8b2d05790c995c97:L1)|(1290,515)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="9725d2f3167a4673bd588f9bdcc97aa8" Joints="N(598011b460d743ccb5d1ec1a9f6c91d5:Value)|(1260,460) h(20) v(45) N(c074408e691a4b4b8b2d05790c995c97:L0)|(1290,505)" xmlns="http://www.ni.com/PlatformFramework" />
+			<MethodCall Bounds="1290 500 50 50" Id="c074408e691a4b4b8b2d05790c995c97" ResolveFailedHint="Write (Instr, String).gvi, Package: (NI-VISA API support for LabVIEW NXG 5.0, Version: 20.0.0)" Signature="@46a359390ef24d10bc24e9c0bc1e70b2" Target="NI::VISA::Write (Instr, String).gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="session in" />
@@ -121,7 +121,7 @@
 				<Terminal DataType="Error" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="UInt32" Direction="Output" Hotspot="50 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
-			<MethodCall Bounds="1345 595 40 40" Id="2ea9f1a49a7a482386d64b62b567571c" Label="4ae194839691411abe737292a03fdee0" ResolveFailedHint="&quot;C:\\Users\\minus\\Documents\\LabVIEW Projects\\Labview_NXG_Keithley_SMU_2450_2460_2461\\Labview_NXG_Keithley_SMU_2450_2460_2461.gcomp\\Utility\\Error Query.gvi&quot;" Signature="@92deb9f04636417eaedbded561eb7563" Target="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Error Query.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="1360 480 40 40" Id="2ea9f1a49a7a482386d64b62b567571c" Label="4ae194839691411abe737292a03fdee0" ResolveFailedHint="&quot;C:\\Users\\mgibert2\\Documents\\GitHub\\LabView\\NXG_Keithley_SMU_2450_2460_2461\\Source Files\\NXG_Keithley_SMU_2450_2460_2461.gcomp\\Utility\\Error Query.gvi&quot;" Signature="@92deb9f04636417eaedbded561eb7563" Target="Labview_NXG_Keithley_SMU_2450_2460_2461::Utility::Error Query.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="VISA resource name" />
@@ -394,7 +394,7 @@
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
 							</IconTemplate>
 							<Image Height="[float]30" Left="[float]5" MinHeight="[float]13" MinWidth="[float]13" Source="[SMEmbeddedImageSource]iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFPSURBVEhLtZIBkoMwDAP5/w/4U//EyVaiGDvhYEo1rm8jx4LpdTu2X1U4QBEkMacsHqVo9hrUBhoLVHFEZpd5dvoARV0cI6hTyffqm6g0E1SmopO6Vx+j5BKkxPVOMnsNer2G/AXeVEus6eHx/9RKLTBFAz+3NU13v0Qr12jbCLFHIOMvBd73nWmQWYM8mgvsgmRCYq7GUDLjTEbhrSEtTxMFCuFRz2huI4/mjlFJmZoKkQMp7hTdhrelaB75AGYOMZozozOs2FZ6NCwf9reGYjRn2lx1QYyWGMhEgX0wYydMWfI92PbD8KNdcM/lyS3a74+U6w4xWj+M9gDzXHQ7P/hP9qUmPeCkNnQpHXBdKy0n2Klv9EhX0d/kQlfRX2oE6OsWJIamviBpvvaoR4gaFsa8IagcO0FO1XDT1ft9pTHDvbhQe4U0TZq7L+g4/gBXgNTmh3MESwAAAABJRU5ErkJggg==" Top="[float]5" Width="[float]30" />
-							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]Labview_NXG_Keithley_SMU_2450_2460_2461.gcomp" Top="[float]0" Width="[float]40" />
+							<IconTemplate Height="[float]40" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]NXG_Keithley_SMU_2450_2460_2461.gcomp" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
 				</MergeItem>
