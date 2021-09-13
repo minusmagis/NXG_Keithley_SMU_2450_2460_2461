@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="2C6591DAF1CDFE2A81CC7E9DEE74A1441C20A1503E483388F2D468257D8BC7CCCD8489B83B4DE6107A62FE0FE21698625964B21FEAC25652BE0DA7EDF5050DDB" Timestamp="1D7A4C4A4DCCE98" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="C46792F81A037ED9F143D211612E84F6D847DCBB2DD4E47D5DD2D68C2414729AD1CDE19477F660DB4BA57786B7A707DDA93B9103E0037595ECF4CF9BADB9BED6" Timestamp="1D7A887BB0AB7F6" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -253,9 +253,9 @@
 			<ComponentItemProperties AssociatedEnvoyId="1e8a06bb224422999d15c972352f7f9" Exported="True" Id="6b0b68b1990c4526ad978a1de986fe4c" />
 			<ComponentItemProperties AssociatedEnvoyId="fff5bf3790524ea1a862891b3c0ef3fe" Exported="True" Id="9a4e8c3725934bc19c1dabf0e113d12f" />
 			<ComponentItemProperties AssociatedEnvoyId="b3f22149fe17466090150800a54e9c20" Exported="True" Id="e6a09ac431d47329168a14dfebd6745" />
-			<ComponentItemProperties AssociatedEnvoyId="2c08a2e1ea7f41fb8200674952ba9e1f" Exported="True" Id="48d9ba1cdd06423d90b13d92e8382a03" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="2c08a2e1ea7f41fb8200674952ba9e1f" Exported="True" Id="48d9ba1cdd06423d90b13d92e8382a03" />
 			<ComponentItemProperties AssociatedEnvoyId="62964c6229c5483fb46fccb763116a35" Exported="True" Id="b25112e150a4cc2a8931e9f54f07f2d" />
-			<ComponentItemProperties AssociatedEnvoyId="f513e257f75d45e19f835b0e72308b41" Exported="True" Id="b0220585dac6402abb03fd9e607ca744" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="f513e257f75d45e19f835b0e72308b41" Exported="True" Id="b0220585dac6402abb03fd9e607ca744" />
 			<ComponentItemProperties AssociatedEnvoyId="136e3dd06fc64cd281f797e2246497f4" Exported="True" Id="fea125ae4c434a0a8274a3412a2c87d6" />
 			<ComponentItemProperties AssociatedEnvoyId="ae4f9e2c6814138a3475fe839da8b60" Exported="True" Id="c0265c5b34c4d6fa948c9501770267f" />
 			<ComponentItemProperties AssociatedEnvoyId="2312938b3d0f4a599ac98d91ea269a50" Exported="True" Id="50ff04f52ffa403f9e2bfde59a051bc8" />
