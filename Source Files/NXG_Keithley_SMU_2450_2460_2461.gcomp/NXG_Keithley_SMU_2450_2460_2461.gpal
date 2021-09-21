@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="FFBDD352D8EFCD626DE262E6AC154C4C4EFE96E24A80FC98D7DF867A6F8E7A9434C5F836FA9BE27758F5ECC9373524A6F4E14E5A46CF547B7D3B70EC4DF4BF4C" Timestamp="1D6B78BDF8FBCE8" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="B8271DD078064348AC5B82C0919328B879E74F86A48DB4F897A521993C27A031A37D60A4AE6936078D0D2111CC4539749C322BC56091CFAF41D052807DEC8484" Timestamp="1D7AEEE14F8EF71" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
@@ -51,6 +51,7 @@
 							<FontSetting FontFamily="Oswald" FontSize="13" Id="10f4662bd782445c99a3a7e46a35ffb9" />
 						</Text>
 					</IconPanel>
+					<PaletteContentLeaf ClipboardDataFormat="MethodCall" Id="bade8da2f2634d9898c64ec7212d16e4" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Turn off Delays and Autozero (High Speed).gvi" />
 					<PaletteContentLeaf Id="434b72ad75004756bb7d14a41ebc1874" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Append Buffer to File in the USB.gvi" />
 					<PaletteContentLeaf Id="a705dce4a2f44e2387cfb1492cbdbb11" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Clear Buffer Statistics.gvi" />
 					<PaletteContentLeaf Id="5db821d61bc744c1aacf142eaf83c713" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Configure::Clear Buffer.gvi" />
@@ -252,6 +253,8 @@
 							<FontSetting FontFamily="Oswald" FontSize="15" Id="6c4fdb1eee4548b4b71b0c97bb32e8e5" />
 						</Text>
 					</IconPanel>
+					<PaletteContentLeaf ClipboardDataFormat="MethodCall" Id="dbab6ee8c04e46e9ad7f9880192eaccc" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Examples::Keithley 2450 Fast Sweep.gvi" />
+					<PaletteContentLeaf ClipboardDataFormat="MethodCall" Id="5b302158df3a43f6987d7c8f0ebf9999" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Examples::Keithley Send SCPI Command.gvi" />
 					<PaletteContentLeaf Id="3ec800421a434db6a6088a8783a8ae5b" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Examples::Keithley 2450 Output List and Acquire.gvi" />
 					<PaletteContentLeaf Id="80b81d62336a4f0c9c22a5cf5ba5202f" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Examples::Keithley 2450 Read Multiple.gvi" />
 					<PaletteContentLeaf Id="2868c092e7cd4a3ab09bb833a0e37054" MethodTarget="Labview_NXG_Keithley_SMU_2450_2460_2461::Examples::Keithley 2450 Read Single.gvi" />

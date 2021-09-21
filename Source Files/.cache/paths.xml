@@ -1031,4 +1031,20 @@
 			<string>NI.NativeTarget.Template.gcompcache</string>
 		</value>
 	</item>
+	<item>
+		<key>
+			<string>icmab-csic-nxg_keithley_smu_2450_2460_2461-nxg_keithley_smu_2450_2460_2461-src-1.0.0.6_df1d99398f14978bfbcd812c0bc3881.niaddoncache</string>
+		</key>
+		<value>
+			<string>icmab-csic-nxg_keithley_smu_2450_2460_2461-nxg_keithley_smu_2450_2460_2461-src-1.0.0.6.niaddoncache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NXG_Keithley_SMU_2450_2460_2461_f0d8cdac8a5448618999b60a457bebea_df1d99398f14978bfbcd812c0bc3881.gcompcache</string>
+		</key>
+		<value>
+			<string>NXG_Keithley_SMU_2450_2460_2461_6.gcompcache</string>
+		</value>
+	</item>
 </SerializableDictionary>
